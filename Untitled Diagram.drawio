@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-26T17:50:14.552Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="2g_KE09K7tdzcmymWiwc" version="19.0.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-06-26T17:50:45.779Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="g9KEx0XcqVH8RH8lj_kP" version="19.0.0" type="github" pages="5">
   <diagram id="IdCtrlnJ2hmRQC5FIhOs" name="极效前置接入">
     <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -525,7 +525,7 @@
         <mxCell id="Yhb-L28iyE8U8hoPX2aC-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=10;fontColor=default;strokeColor=#000000;strokeWidth=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Yhb-L28iyE8U8hoPX2aC-3" target="Yhb-L28iyE8U8hoPX2aC-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Yhb-L28iyE8U8hoPX2aC-3" value="仓库平台" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=10;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+        <mxCell id="Yhb-L28iyE8U8hoPX2aC-3" value="仓库平台" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="500" y="670" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Yhb-L28iyE8U8hoPX2aC-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=10;fontColor=default;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="Yhb-L28iyE8U8hoPX2aC-6" target="Yhb-L28iyE8U8hoPX2aC-1">
@@ -542,6 +542,12 @@
         </mxCell>
         <mxCell id="Yhb-L28iyE8U8hoPX2aC-12" value="topic2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="310.25" y="722.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yhb-L28iyE8U8hoPX2aC-14" value="仓库平台" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="510" y="680" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Yhb-L28iyE8U8hoPX2aC-15" value="仓库平台" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="520" y="690" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,6 +1,62 @@
-<mxfile host="app.diagrams.net" modified="2022-06-26T05:01:21.380Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="goxOF24EFucNo_skQXLh" version="19.0.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-06-26T07:22:37.845Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="SnsMtIIRljAF1Ba3jyAc" version="19.0.0" type="github" pages="4">
+  <diagram id="IdCtrlnJ2hmRQC5FIhOs" name="极效前置接入">
+    <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="u3ABDbnpXiGjK3fh1uyu-1" value="客户系统" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="300" y="170" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u3ABDbnpXiGjK3fh1uyu-5" value="电商ERP" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="400" y="170" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u3ABDbnpXiGjK3fh1uyu-6" value="三方仓储" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=10;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="500" y="170" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u3ABDbnpXiGjK3fh1uyu-7" value="三方物流公司" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=10;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="600" y="170" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u3ABDbnpXiGjK3fh1uyu-8" value="开放API（极效网关）" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="300" y="250" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u3ABDbnpXiGjK3fh1uyu-9" value="极效前置" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=10;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="300" y="330" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u3ABDbnpXiGjK3fh1uyu-13" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=default;startSize=1;endSize=1;strokeWidth=3;exitX=0.105;exitY=-0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#CCCCCC;" edge="1" parent="1" source="u3ABDbnpXiGjK3fh1uyu-8" target="u3ABDbnpXiGjK3fh1uyu-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="339.5" y="240" as="sourcePoint" />
+            <mxPoint x="339.5" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u3ABDbnpXiGjK3fh1uyu-14" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=default;startSize=1;endSize=1;strokeWidth=3;exitX=0.105;exitY=-0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#CCCCCC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="439.5000000000001" y="247" as="sourcePoint" />
+            <mxPoint x="439.6" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u3ABDbnpXiGjK3fh1uyu-15" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=default;startSize=1;endSize=1;strokeWidth=3;exitX=0.105;exitY=-0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#CCCCCC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="539.5000000000001" y="247" as="sourcePoint" />
+            <mxPoint x="539.6" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u3ABDbnpXiGjK3fh1uyu-16" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=default;startSize=1;endSize=1;strokeWidth=3;exitX=0.105;exitY=-0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#CCCCCC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="639.5000000000001" y="247" as="sourcePoint" />
+            <mxPoint x="639.6" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u3ABDbnpXiGjK3fh1uyu-17" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=default;startSize=1;endSize=1;strokeWidth=3;exitX=0.105;exitY=-0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#CCCCCC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480.0000000000001" y="330" as="sourcePoint" />
+            <mxPoint x="480.1" y="283" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="2wnUoV2GM8q6DsRvARYh" name="设计模式">
-    <mxGraphModel dx="1662" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -254,7 +310,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="D5UHapvVp-XhOr6KAALa" name="数据库优化">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />

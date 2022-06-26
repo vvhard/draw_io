@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-26T16:28:06.109Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="hGJqg-sjorjVLjT3sr1_" version="19.0.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-06-26T16:28:20.964Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="xL7vXZSMA7uopxJYpQ5e" version="19.0.0" type="github" pages="5">
   <diagram id="IdCtrlnJ2hmRQC5FIhOs" name="极效前置接入">
     <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -394,7 +394,7 @@
         <mxCell id="3ypH4pQ7oOh8SRA2ZYgx-2" value="商品" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=10;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="100" y="310" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3ypH4pQ7oOh8SRA2ZYgx-3" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=default;fillColor=none;gradientColor=none;rotation=90;" vertex="1" parent="1">
+        <mxCell id="3ypH4pQ7oOh8SRA2ZYgx-3" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=0;fontFamily=Helvetica;fontSize=10;fillColor=#fff2cc;rotation=90;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="300.25" y="185.75" width="46.5" height="115" as="geometry" />
         </mxCell>
         <mxCell id="3ypH4pQ7oOh8SRA2ZYgx-4" value="Kafka" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=default;" vertex="1" parent="1">
@@ -409,7 +409,7 @@
         <mxCell id="3ypH4pQ7oOh8SRA2ZYgx-7" value="……" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=10;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="500" y="360" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3ypH4pQ7oOh8SRA2ZYgx-8" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+        <mxCell id="3ypH4pQ7oOh8SRA2ZYgx-8" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=0;fontFamily=Helvetica;fontSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="115" y="400" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3ypH4pQ7oOh8SRA2ZYgx-9" value="MySQL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=default;" vertex="1" parent="1">

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-26T16:35:52.090Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="f_e5W5eTRZq9lB_yfl6V" version="19.0.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-06-26T16:36:09.581Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="ag5O0rLj_6doNbwYNbgt" version="19.0.0" type="github" pages="5">
   <diagram id="IdCtrlnJ2hmRQC5FIhOs" name="极效前置接入">
     <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -506,6 +506,9 @@
         </mxCell>
         <mxCell id="3ypH4pQ7oOh8SRA2ZYgx-34" value="同步调用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="640" y="116.75" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ypH4pQ7oOh8SRA2ZYgx-35" value="异步解耦" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="640" y="410" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

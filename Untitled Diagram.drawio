@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-26T08:50:45.504Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="ZDCNKgpQwFcg0SDqQS0S" version="19.0.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-06-26T08:51:12.934Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="vPBS5uRo4g_MaP0hhOxx" version="19.0.0" type="github" pages="5">
   <diagram id="IdCtrlnJ2hmRQC5FIhOs" name="极效前置接入">
     <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -312,7 +312,7 @@
         <mxCell id="vPuqsmpkCp8BbXMWcI_j-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=10;fontColor=default;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="vPuqsmpkCp8BbXMWcI_j-5" target="vPuqsmpkCp8BbXMWcI_j-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vPuqsmpkCp8BbXMWcI_j-5" value="@Scheduler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vPuqsmpkCp8BbXMWcI_j-5" value="@Scheduler" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="67.25" y="865" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vPuqsmpkCp8BbXMWcI_j-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="vPuqsmpkCp8BbXMWcI_j-1" target="vPuqsmpkCp8BbXMWcI_j-8">

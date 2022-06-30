@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-30T15:01:12.050Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="H8fAu6yzQWGnge6OMI2k" version="20.0.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-06-30T15:14:21.663Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="y2pwuaeXH2JFZHU130ZJ" version="20.0.4" type="github" pages="5">
   <diagram id="IdCtrlnJ2hmRQC5FIhOs" name="极效前置接入">
     <mxGraphModel dx="959" dy="362" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="u3ABDbnpXiGjK3fh1uyu-8" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px;&quot;&gt;开放API（极效网关）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=10;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="300" y="250" width="380" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="u3ABDbnpXiGjK3fh1uyu-9" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px;&quot;&gt;极效前置&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=10;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
+        <mxCell id="u3ABDbnpXiGjK3fh1uyu-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=10;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
           <mxGeometry x="300" y="330" width="380" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u3ABDbnpXiGjK3fh1uyu-13" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=10;fontColor=default;startSize=1;endSize=1;strokeWidth=3;exitX=0.105;exitY=-0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#CCCCCC;" parent="1" source="u3ABDbnpXiGjK3fh1uyu-8" target="u3ABDbnpXiGjK3fh1uyu-1" edge="1">
@@ -51,6 +51,12 @@
             <mxPoint x="480.0000000000001" y="330" as="sourcePoint" />
             <mxPoint x="480.1" y="283" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="OYWZxNQ2XOcn_ILHSm78-1" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;订单中心统一API&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" vertex="1" parent="1">
+          <mxGeometry x="450" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OYWZxNQ2XOcn_ILHSm78-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;极效前置&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="435" y="360" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

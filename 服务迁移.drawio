@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-07T05:00:45.508Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="hPp89efonVY5-BsdjGst" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-07T05:01:36.018Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="-1U_7RTSxz_DZxvj20mC" version="20.0.4" type="github">
   <diagram id="0Rd2zlKzjszA67ADvUel" name="Page-1">
     <mxGraphModel dx="2249" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -73,8 +73,8 @@
         <mxCell id="j8l-eJ1rH2gUDRsQvT4E-38" value="auth-core" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="695" width="116" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="j8l-eJ1rH2gUDRsQvT4E-43" value="/zt/nuts-auth-core/**" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="160" y="600" width="125" height="30" as="geometry" />
+        <mxCell id="j8l-eJ1rH2gUDRsQvT4E-43" value="/zt/nuts-auth-core/**&lt;br&gt;/api/hd-fx-cmcc/**" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="590" width="145" height="30" as="geometry" />
         </mxCell>
         <mxCell id="j8l-eJ1rH2gUDRsQvT4E-47" value="CAS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-10" y="697.5" width="80" height="35" as="geometry" />

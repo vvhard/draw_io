@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-31T13:40:22.162Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Q-OXy74PCQgTJlmvwTeN" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-31T13:41:19.290Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="IBNKpyUfh_nkjJJjkmZn" version="20.1.1" type="github">
   <diagram id="kvTPYWObUU4OJ8QcUyJl" name="第 1 页">
     <mxGraphModel dx="1662" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -205,7 +205,7 @@
           <mxGeometry x="350" y="211" width="75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KkT-oR0zyqJZEEh2iuAG-99" value="业务日志" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="490.5" y="174" width="52.5" height="19" as="geometry" />
+          <mxGeometry x="492.5" y="175.5" width="52.5" height="19" as="geometry" />
         </mxCell>
         <mxCell id="KkT-oR0zyqJZEEh2iuAG-101" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.009;exitY=0.206;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="KkT-oR0zyqJZEEh2iuAG-1" target="KkT-oR0zyqJZEEh2iuAG-92">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -215,6 +215,9 @@
         </mxCell>
         <mxCell id="KkT-oR0zyqJZEEh2iuAG-103" value="存储" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="880" y="383" width="50" height="17.18" as="geometry" />
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-104" value="行为/埋点日志" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340.63" y="236.09" width="86.25" height="19" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

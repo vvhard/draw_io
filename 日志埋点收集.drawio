@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-31T13:42:04.727Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="8twkDg5B3lJDYVDVekPC" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-31T15:02:54.199Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="gw0lxxKsoQ_JTKGVV4VO" version="20.1.1" type="github">
   <diagram id="kvTPYWObUU4OJ8QcUyJl" name="第 1 页">
-    <mxGraphModel dx="1662" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -221,6 +221,110 @@
         </mxCell>
         <mxCell id="KkT-oR0zyqJZEEh2iuAG-104" value="行为/埋点日志" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="340.63" y="236.09" width="86.25" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KkT-oR0zyqJZEEh2iuAG-107" target="KkT-oR0zyqJZEEh2iuAG-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-107" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1050" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KkT-oR0zyqJZEEh2iuAG-108" target="KkT-oR0zyqJZEEh2iuAG-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KkT-oR0zyqJZEEh2iuAG-108" target="KkT-oR0zyqJZEEh2iuAG-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-108" value="后端接收前端绑卡请求" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="1140" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KkT-oR0zyqJZEEh2iuAG-110" target="KkT-oR0zyqJZEEh2iuAG-119">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-110" value="业务处理(参数校验)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="1221" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KkT-oR0zyqJZEEh2iuAG-119" target="KkT-oR0zyqJZEEh2iuAG-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-119" value="调用ICCID校验方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="1310" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-122" value="上报请求日志，记录请求参数等信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1140" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KkT-oR0zyqJZEEh2iuAG-131" target="KkT-oR0zyqJZEEh2iuAG-132">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KkT-oR0zyqJZEEh2iuAG-131" target="KkT-oR0zyqJZEEh2iuAG-156">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-131" value="调用电信ICCID接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="1390" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="KkT-oR0zyqJZEEh2iuAG-132" target="KkT-oR0zyqJZEEh2iuAG-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KkT-oR0zyqJZEEh2iuAG-132" target="KkT-oR0zyqJZEEh2iuAG-154">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-132" value="调用结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="1470" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KkT-oR0zyqJZEEh2iuAG-133" target="KkT-oR0zyqJZEEh2iuAG-134">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KkT-oR0zyqJZEEh2iuAG-133" target="KkT-oR0zyqJZEEh2iuAG-152">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-133" value="扣减库存方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="1560" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KkT-oR0zyqJZEEh2iuAG-134" target="KkT-oR0zyqJZEEh2iuAG-135">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-134" value="扣减库存" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="1650" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KkT-oR0zyqJZEEh2iuAG-135" target="KkT-oR0zyqJZEEh2iuAG-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KkT-oR0zyqJZEEh2iuAG-135" target="KkT-oR0zyqJZEEh2iuAG-150">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-135" value="绑卡结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="1730" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-136" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="1810" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-150" value="上报操作日志，记录关键节点操作记录" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1730" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-152" value="上报方法调用日志，记录调用参数等信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1560" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-154" value="上报响应日志，记录响应结果等信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1470" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-156" value="上报请求日志，记录请求参数等信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1390" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-159" value="生产链路唯一标识,，并在同一次请求内往后传递，用以跟踪链路，&lt;br&gt;生成span用以标识当前操作节点，当调用新方法或外部请求调用时，生成新的span，用以构建新的操作节点，串联各个节点" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1070" width="256" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-160" value="trace: 123456&lt;br&gt;span:&amp;nbsp; 1&lt;br&gt;type:0&lt;br&gt;opCode: BIND_CARD&lt;br&gt;orderNo: xxxx&lt;br&gt;waybillNo: SFxxxx&lt;br&gt;subject: 订单绑卡&lt;br&gt;content: {xxx:xxx}&lt;br&gt;logTime: 2022-07-31 22:56:00:123&lt;br&gt;platform: WEB&lt;br&gt;operator: 01397336&lt;br&gt;operatorName: 张启荣&lt;br&gt;status: -" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1090" width="200" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-161" value="trace: 123456&lt;br&gt;span:&amp;nbsp; 2&lt;br&gt;type:0&lt;br&gt;opCode: BIND_CARD&lt;br&gt;orderNo: xxxx&lt;br&gt;waybillNo: SFxxxx&lt;br&gt;subject: ICCID校验&lt;br&gt;content: {xxx:xxx}&lt;br&gt;logTime: 2022-07-31 22:56:00:123&lt;br&gt;platform: WEB&lt;br&gt;operator: 01397336&lt;br&gt;operatorName: 张启荣&lt;br&gt;status: -" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1320" width="200" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-162" value="trace: 123456&lt;br&gt;span:&amp;nbsp; 2&lt;br&gt;type:0&lt;br&gt;opCode: BIND_CARD&lt;br&gt;orderNo: xxxx&lt;br&gt;waybillNo: SFxxxx&lt;br&gt;subject: 扣减库存&lt;br&gt;content: {xxx:xxx}&lt;br&gt;logTime: 2022-07-31 22:56:00:123&lt;br&gt;platform: WEB&lt;br&gt;operator: 01397336&lt;br&gt;operatorName: 张启荣&lt;br&gt;status: -" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1530" width="200" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-163" value="trace: 123456&lt;br&gt;span:&amp;nbsp; 1&lt;br&gt;type:2&lt;br&gt;opCode: BIND_CARD&lt;br&gt;orderNo: xxxx&lt;br&gt;waybillNo: SFxxxx&lt;br&gt;subject: 订单绑卡&lt;br&gt;content: {xxx:xxx}&lt;br&gt;logTime: 2022-07-31 22:56:00:123&lt;br&gt;platform: WEB&lt;br&gt;operator: 01397336&lt;br&gt;operatorName: 张启荣&lt;br&gt;status: 1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1735" width="200" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

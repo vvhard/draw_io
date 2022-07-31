@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-31T08:58:19.015Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="FtUG2xf7rcDCBLMbRfkX" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-31T09:02:18.703Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="-nlGMNOAlV5yJSszkOYm" version="20.1.1" type="github">
   <diagram id="kvTPYWObUU4OJ8QcUyJl" name="第 1 页">
     <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -97,7 +97,7 @@
           <mxGeometry x="350" y="170" width="75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KkT-oR0zyqJZEEh2iuAG-36" value=":绑卡" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="200" y="660" width="100" height="350" as="geometry" />
+          <mxGeometry x="340" y="630" width="100" height="350" as="geometry" />
         </mxCell>
         <mxCell id="KkT-oR0zyqJZEEh2iuAG-39" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="KkT-oR0zyqJZEEh2iuAG-36">
           <mxGeometry x="45" y="70" width="10" height="30" as="geometry" />
@@ -116,63 +116,81 @@
           <mxGeometry x="45" y="250" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KkT-oR0zyqJZEEh2iuAG-37" value=":扣减库存" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="370" y="660" width="100" height="350" as="geometry" />
+          <mxGeometry x="510" y="630" width="140" height="350" as="geometry" />
         </mxCell>
         <mxCell id="KkT-oR0zyqJZEEh2iuAG-49" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="KkT-oR0zyqJZEEh2iuAG-37">
           <mxGeometry x="45" y="210" width="10" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-76" value="6.发布库存扣减事件，通知电信物料消耗" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="KkT-oR0zyqJZEEh2iuAG-37">
+          <mxGeometry x="-110" y="280" width="250" height="20" as="geometry" />
+        </mxCell>
         <mxCell id="KkT-oR0zyqJZEEh2iuAG-38" value=":ICCID校验" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="550" y="660" width="100" height="350" as="geometry" />
+          <mxGeometry x="690" y="630" width="100" height="350" as="geometry" />
         </mxCell>
         <mxCell id="KkT-oR0zyqJZEEh2iuAG-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="KkT-oR0zyqJZEEh2iuAG-38">
           <mxGeometry x="45" y="100" width="10" height="70" as="geometry" />
         </mxCell>
         <mxCell id="KkT-oR0zyqJZEEh2iuAG-42" value="" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="KkT-oR0zyqJZEEh2iuAG-41" parent="1" source="KkT-oR0zyqJZEEh2iuAG-36">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="525" y="760" as="sourcePoint" />
+            <mxPoint x="665" y="730" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KkT-oR0zyqJZEEh2iuAG-48" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="593.5" y="830" as="sourcePoint" />
-            <mxPoint x="254" y="830" as="targetPoint" />
+            <mxPoint x="733.5" y="800" as="sourcePoint" />
+            <mxPoint x="394" y="800" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="384" y="830" />
+              <mxPoint x="524" y="800" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="KkT-oR0zyqJZEEh2iuAG-53" value=":物料消耗" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="720" y="660" width="100" height="350" as="geometry" />
+          <mxGeometry x="860" y="630" width="100" height="350" as="geometry" />
         </mxCell>
         <mxCell id="KkT-oR0zyqJZEEh2iuAG-55" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="KkT-oR0zyqJZEEh2iuAG-53">
           <mxGeometry x="45" y="280" width="10" height="50" as="geometry" />
         </mxCell>
         <mxCell id="KkT-oR0zyqJZEEh2iuAG-57" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="423.5" y="910" as="sourcePoint" />
-            <mxPoint x="253.5" y="910" as="targetPoint" />
+            <mxPoint x="563.5" y="880" as="sourcePoint" />
+            <mxPoint x="393.5" y="880" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="354" y="910" />
+              <mxPoint x="494" y="880" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="KkT-oR0zyqJZEEh2iuAG-62" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;dashed=1;" edge="1" parent="1" target="KkT-oR0zyqJZEEh2iuAG-53">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="250" y="940" as="sourcePoint" />
-            <mxPoint x="410" y="940" as="targetPoint" />
+            <mxPoint x="390" y="910" as="sourcePoint" />
+            <mxPoint x="550" y="910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KkT-oR0zyqJZEEh2iuAG-66" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="660" width="30" height="350" as="geometry" />
+          <mxGeometry x="210" y="630" width="30" height="350" as="geometry" />
         </mxCell>
         <mxCell id="KkT-oR0zyqJZEEh2iuAG-67" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="KkT-oR0zyqJZEEh2iuAG-66">
           <mxGeometry x="10" y="50" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KkT-oR0zyqJZEEh2iuAG-68" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="90" y="730" as="sourcePoint" />
-            <mxPoint x="245" y="730" as="targetPoint" />
+            <mxPoint x="230" y="700" as="sourcePoint" />
+            <mxPoint x="385" y="700" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-69" value="1.输入卡号" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="255" y="670" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-70" value="2.调用电信接口进行ICCID校验" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="700" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-71" value="3.电信接口返回ICCID校验结果" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="770" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-72" value="4.扣减库存生成库存流水" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="820" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KkT-oR0zyqJZEEh2iuAG-73" value="5.返回扣减结果" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="396" y="860" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

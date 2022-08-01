@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-01T15:39:48.668Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="cL81SDWSbZXimrx4Ipqo" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-01T15:40:05.329Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="TOUgoCcdsCbQFuAClwwD" version="20.1.1" type="github">
   <diagram id="kvTPYWObUU4OJ8QcUyJl" name="第 1 页">
     <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -308,18 +308,6 @@
         <mxCell id="KkT-oR0zyqJZEEh2iuAG-159" value="生产链路唯一标识,，并在同一次请求内往后传递，用以跟踪链路，&lt;br&gt;生成span用以标识当前操作节点，当调用新方法或外部请求调用时，生成新的span，用以构建新的操作节点，串联各个节点" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="140" y="1070" width="256" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="KkT-oR0zyqJZEEh2iuAG-161" value="trace: 123456&lt;br&gt;span:&amp;nbsp; 2&lt;br&gt;type:0&lt;br&gt;opCode: ICCID_CHECK&lt;br&gt;orderNo: xxxx&lt;br&gt;waybillNo: SFxxxx&lt;br&gt;subject: ICCID校验&lt;br&gt;content: {xxx:xxx}&lt;br&gt;logTime: 2022-07-31 22:56:00:123&lt;br&gt;platform: WEB&lt;br&gt;operator: 01397336&lt;br&gt;operatorName: 张启荣&lt;br&gt;status: -" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="820" y="1310" width="200" height="190" as="geometry" />
-        </mxCell>
-        <mxCell id="KkT-oR0zyqJZEEh2iuAG-162" value="trace: 123456&lt;br&gt;span:&amp;nbsp; 2&lt;br&gt;opCode: INVENTORY_OUT&lt;br&gt;orderNo: xxxx&lt;br&gt;waybillNo: SFxxxx&lt;br&gt;subject: 扣减库存&lt;br&gt;content: {xxx:xxx}&lt;br&gt;logTime: 2022-07-31 22:56:00:123&lt;br&gt;platform: WEB&lt;br&gt;operator: 01397336&lt;br&gt;operatorName: 张启荣&lt;br&gt;status: -" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="830" y="1530" width="200" height="190" as="geometry" />
-        </mxCell>
-        <mxCell id="KkT-oR0zyqJZEEh2iuAG-163" value="trace: 123456&lt;br&gt;span:&amp;nbsp; 1&lt;br&gt;type:2&lt;br&gt;opCode: BIND_CARD&lt;br&gt;orderNo: xxxx&lt;br&gt;waybillNo: SFxxxx&lt;br&gt;subject: 订单绑卡&lt;br&gt;content: {xxx:xxx}&lt;br&gt;logTime: 2022-07-31 22:56:00:123&lt;br&gt;platform: WEB&lt;br&gt;operator: 01397336&lt;br&gt;operatorName: 张启荣&lt;br&gt;status: 1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="830" y="1730" width="200" height="190" as="geometry" />
-        </mxCell>
-        <mxCell id="KkT-oR0zyqJZEEh2iuAG-171" value="trace: 123456&lt;br&gt;type:2&lt;br&gt;opCode: MATERIAL_CONSUME&lt;br&gt;orderNo: xxxx&lt;br&gt;waybillNo: SFxxxx&lt;br&gt;subject: 物料消耗&lt;br&gt;content: {xxx:xxx}&lt;br&gt;logTime: 2022-07-31 22:56:00:123&lt;br&gt;platform: WEB&lt;br&gt;operator: 01397336&lt;br&gt;operatorName: 张启荣&lt;br&gt;status: 1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="40" y="1655" width="200" height="190" as="geometry" />
-        </mxCell>
         <mxCell id="KkT-oR0zyqJZEEh2iuAG-176" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KkT-oR0zyqJZEEh2iuAG-172" target="KkT-oR0zyqJZEEh2iuAG-175" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -349,9 +337,6 @@
         </mxCell>
         <mxCell id="3sWgMQn-a0ZtMmKVRTPP-19" value="上报请求日志，记录请求参数等信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="676.88" y="1140" width="110" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="3sWgMQn-a0ZtMmKVRTPP-21" value="trace: 123456&lt;br&gt;span:&amp;nbsp; 1&lt;br&gt;type:0&lt;br&gt;opCode: BIND_CARD&lt;br&gt;orderNo: xxxx&lt;br&gt;waybillNo: SFxxxx&lt;br&gt;subject: 订单绑卡&lt;br&gt;content: {xxx:xxx}&lt;br&gt;logTime: 2022-07-31 22:56:00:123&lt;br&gt;platform: WEB&lt;br&gt;operator: 01397336&lt;br&gt;operatorName: 张启荣&lt;br&gt;status: -" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1090" y="1730" width="200" height="190" as="geometry" />
         </mxCell>
         <mxCell id="3sWgMQn-a0ZtMmKVRTPP-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3sWgMQn-a0ZtMmKVRTPP-22" target="3sWgMQn-a0ZtMmKVRTPP-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -643,12 +628,6 @@
         </mxCell>
         <mxCell id="3sWgMQn-a0ZtMmKVRTPP-224" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;被调&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1080" y="3610" width="55" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="IR955zyRSDsVAtKedioO-5" value="trace: 123456&lt;br&gt;span:&amp;nbsp; 1&lt;br&gt;type:0&lt;br&gt;opCode: ICCID_CHECK&lt;br&gt;orderNo: xxxx&lt;br&gt;waybillNo: SFxxxx&lt;br&gt;subject: ICCID校验&lt;br&gt;content: {xxx:xxx}&lt;br&gt;logTime: 2022-07-31 22:56:00:123&lt;br&gt;platform: WEB&lt;br&gt;operator: 01397336&lt;br&gt;operatorName: 张启荣&lt;br&gt;status: -" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="820" y="1051" width="200" height="190" as="geometry" />
-        </mxCell>
-        <mxCell id="IR955zyRSDsVAtKedioO-6" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry y="1660" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="FQLv5_DVjov3CrdnO-SH-2" value="生成traceId:123456780、spanId:1, 记录请求参数，时间等信息" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="430" y="2590" width="200" height="30" as="geometry" />

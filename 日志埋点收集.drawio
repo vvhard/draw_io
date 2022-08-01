@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-01T04:00:03.130Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="LLk-AmE9Ag1Tb-wThg0Q" version="20.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-01T04:00:24.159Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="v1-btIzAqwSU4_cUy64d" version="20.1.2" type="github">
   <diagram id="kvTPYWObUU4OJ8QcUyJl" name="第 1 页">
     <mxGraphModel dx="1422" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -589,6 +589,12 @@
         </mxCell>
         <mxCell id="3sWgMQn-a0ZtMmKVRTPP-140" value="生成traceId:123456781、spanId:1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="654.67" y="2940" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3sWgMQn-a0ZtMmKVRTPP-141" value="生成traceId:123456782、spanId:1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="3040" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3sWgMQn-a0ZtMmKVRTPP-142" value="生成traceId:123456783、spanId:1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="654.67" y="3120" width="200" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-01T03:14:29.939Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ddaorlY0_GF7-er7pBlL" version="20.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-01T03:19:04.092Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="vTo2PhyAmgZD4NL5pLLT" version="20.1.2" type="github">
   <diagram id="kvTPYWObUU4OJ8QcUyJl" name="第 1 页">
     <mxGraphModel dx="1422" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -422,13 +422,13 @@
         <mxCell id="3sWgMQn-a0ZtMmKVRTPP-49" value="2022-08-01 12:00:00" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="225" y="2060" width="125" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3sWgMQn-a0ZtMmKVRTPP-50" value="2022-08-01 12:00:00" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="3sWgMQn-a0ZtMmKVRTPP-50" value="2022-08-01 12:00:05" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="482.5" y="2060" width="125" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3sWgMQn-a0ZtMmKVRTPP-53" value="2022-08-01 12:00:00" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="3sWgMQn-a0ZtMmKVRTPP-53" value="2022-08-01 12:00:08" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="677.5" y="2060" width="125" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3sWgMQn-a0ZtMmKVRTPP-54" value="2022-08-01 12:00:00" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="3sWgMQn-a0ZtMmKVRTPP-54" value="2022-08-01 12:00:10" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="885" y="2059" width="125" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3sWgMQn-a0ZtMmKVRTPP-55" value="10ms" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -445,6 +445,9 @@
         </mxCell>
         <mxCell id="3sWgMQn-a0ZtMmKVRTPP-64" value="查询完成" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="220" y="2330" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3sWgMQn-a0ZtMmKVRTPP-71" value="按运单号查询：SFXXXXX&lt;br&gt;订单号：1234545666666&lt;br&gt;时间：2022-08-01 12:00:00" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="55" y="1990" width="210" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

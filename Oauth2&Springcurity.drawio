@@ -1,1 +1,139 @@
-<mxfile host="app.diagrams.net" modified="2022-08-10T06:16:55.388Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.2.3" etag="812VBOUH9v0NTjBzAdwO" type="github"><diagram id="TxIPW9g65HRfBlmqE_ze">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-10T09:55:38.734Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ihFDCT_UIeH-O663Tp5b" version="20.2.3" type="github">
+  <diagram id="TxIPW9g65HRfBlmqE_ze" name="第 1 页">
+    <mxGraphModel dx="2249" dy="873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PoamBjpmzr-Qkpaqf8Sa-13" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="160" width="210" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="PoamBjpmzr-Qkpaqf8Sa-1" value="认证&lt;br&gt;Oauth2ProcessinFilter" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="585" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PoamBjpmzr-Qkpaqf8Sa-2" value="授权" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="760" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PoamBjpmzr-Qkpaqf8Sa-4" value="Client" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="230" y="90" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PoamBjpmzr-Qkpaqf8Sa-6" value="Filter" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="230" y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PoamBjpmzr-Qkpaqf8Sa-7" value="Filter" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="230" y="370" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PoamBjpmzr-Qkpaqf8Sa-8" value="Servlet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="230" y="450" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PoamBjpmzr-Qkpaqf8Sa-10" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PoamBjpmzr-Qkpaqf8Sa-18" target="PoamBjpmzr-Qkpaqf8Sa-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="260" as="sourcePoint" />
+            <mxPoint x="180" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PoamBjpmzr-Qkpaqf8Sa-11" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PoamBjpmzr-Qkpaqf8Sa-8" target="PoamBjpmzr-Qkpaqf8Sa-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="430" as="sourcePoint" />
+            <mxPoint x="400" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PoamBjpmzr-Qkpaqf8Sa-12" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="PoamBjpmzr-Qkpaqf8Sa-6" target="PoamBjpmzr-Qkpaqf8Sa-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="190" as="sourcePoint" />
+            <mxPoint x="190" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PoamBjpmzr-Qkpaqf8Sa-20" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 14.3556px; letter-spacing: -0.0444444px; color: rgb(25, 30, 30); font-family: SFMono-Regular, Consolas, &amp;quot;Liberation Mono&amp;quot;, Menlo, monospace; background-color: rgba(27, 31, 35, 0.05);&quot;&gt;DeletgatingFilterProxy（委托过滤器代理类，由Spring提供）可以做到延迟加载查找filter bean。因为filter在容器启动之前就需要注册。&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;span style=&quot;background-color: rgba(27, 31, 35, 0.05);&quot;&gt;&lt;font face=&quot;SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace&quot; color=&quot;#191e1e&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 14.3556px; letter-spacing: -0.0444444px;&quot;&gt;DelegatingFilterProxy 允许在Servlet 容器和Spring的ApplicationContext容器查找filter。Servlet容器不知道Spring容器的filter bean，所以&lt;b&gt;通过DelegatingFilterProxy 将具体的逻辑委托给具体的Filter&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 14.3556px; letter-spacing: -0.0444444px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 14.3556px; letter-spacing: -0.0444444px;&quot;&gt;FilterChainProxy 是spring security 提供的一个特殊功能，是一个bean，通常包装在DelegatingFilterProxy中。&lt;/span&gt;&lt;span style=&quot;font-size: 14.3556px; letter-spacing: -0.0444444px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 14.3556px; letter-spacing: -0.0444444px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 15.1111px; letter-spacing: -0.0444444px; background-color: rgb(255, 255, 255);&quot;&gt;Spring Security 使用SecurityFilterChain来确定要执行哪些filter&lt;/span&gt;&lt;span style=&quot;font-size: 14.3556px; letter-spacing: -0.0444444px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 15.1111px; letter-spacing: -0.0444444px; background-color: rgb(255, 255, 255);&quot;&gt;是一个bean&lt;/span&gt;&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 15.1111px; letter-spacing: -0.0444444px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="59.5" width="440" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="PoamBjpmzr-Qkpaqf8Sa-21" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="220" y="260" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PoamBjpmzr-Qkpaqf8Sa-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;dashed=1;" vertex="1" parent="PoamBjpmzr-Qkpaqf8Sa-21">
+          <mxGeometry width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PoamBjpmzr-Qkpaqf8Sa-18" value="DelegatingFilterProxy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="PoamBjpmzr-Qkpaqf8Sa-21">
+          <mxGeometry x="10" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PoamBjpmzr-Qkpaqf8Sa-19" value="FilterChainProxy" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="PoamBjpmzr-Qkpaqf8Sa-21">
+          <mxGeometry x="20" y="32" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PoamBjpmzr-Qkpaqf8Sa-22" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PoamBjpmzr-Qkpaqf8Sa-7" target="PoamBjpmzr-Qkpaqf8Sa-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="370" as="sourcePoint" />
+            <mxPoint x="289.5" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PoamBjpmzr-Qkpaqf8Sa-23" value="FilterCahin" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="139" width="60" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="PoamBjpmzr-Qkpaqf8Sa-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="260" width="160" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="PoamBjpmzr-Qkpaqf8Sa-30" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;SecurityFilterCahin&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="230" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PoamBjpmzr-Qkpaqf8Sa-31" value="SecurityFilter-0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="511" y="270" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PoamBjpmzr-Qkpaqf8Sa-34" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="525" y="340" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PoamBjpmzr-Qkpaqf8Sa-39" value="SecurityFilter-n" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="511" y="460" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PoamBjpmzr-Qkpaqf8Sa-40" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="526" y="370" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PoamBjpmzr-Qkpaqf8Sa-41" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="526" y="400" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PoamBjpmzr-Qkpaqf8Sa-42" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PoamBjpmzr-Qkpaqf8Sa-34" target="PoamBjpmzr-Qkpaqf8Sa-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="700" y="370" as="sourcePoint" />
+            <mxPoint x="680" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PoamBjpmzr-Qkpaqf8Sa-43" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PoamBjpmzr-Qkpaqf8Sa-41" target="PoamBjpmzr-Qkpaqf8Sa-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="430" as="sourcePoint" />
+            <mxPoint x="571" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PoamBjpmzr-Qkpaqf8Sa-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.013;entryY=0.14;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PoamBjpmzr-Qkpaqf8Sa-14" target="PoamBjpmzr-Qkpaqf8Sa-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="340" as="sourcePoint" />
+            <mxPoint x="480" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PoamBjpmzr-Qkpaqf8Sa-52" value="ExceptionTranslationFilter" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="160" y="640" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PoamBjpmzr-Qkpaqf8Sa-53" value="ExceptionTranslationFilter" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="760" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PoamBjpmzr-Qkpaqf8Sa-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PoamBjpmzr-Qkpaqf8Sa-54" target="PoamBjpmzr-Qkpaqf8Sa-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PoamBjpmzr-Qkpaqf8Sa-54" value="chain.doFilter()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="185" y="850" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PoamBjpmzr-Qkpaqf8Sa-55" value="doFilter" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="830" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PoamBjpmzr-Qkpaqf8Sa-56" value="是否抛出异常" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="940" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PoamBjpmzr-Qkpaqf8Sa-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PoamBjpmzr-Qkpaqf8Sa-58" target="PoamBjpmzr-Qkpaqf8Sa-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PoamBjpmzr-Qkpaqf8Sa-58" value="获取异常" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1070" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PoamBjpmzr-Qkpaqf8Sa-60" value="handleSpringSecurityException" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1169" width="180" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

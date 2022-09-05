@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T05:39:58.448Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="W8iYKKzezxUTQzNQdifx" version="20.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-05T05:41:38.705Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="BlUDGQK-M46WlhH5Tg6M" version="20.2.6" type="github">
   <diagram id="EuHHt0kimzctTxm0cvAj" name="第 1 页">
     <mxGraphModel dx="3760" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -287,7 +287,7 @@
         <mxCell id="pNDF83GQEm-mEWTt1PWk-117" value="参数校验" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-990" y="250" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="pNDF83GQEm-mEWTt1PWk-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pNDF83GQEm-mEWTt1PWk-118" target="pNDF83GQEm-mEWTt1PWk-121">
+        <mxCell id="pNDF83GQEm-mEWTt1PWk-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pNDF83GQEm-mEWTt1PWk-118" target="pNDF83GQEm-mEWTt1PWk-172">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pNDF83GQEm-mEWTt1PWk-118" value="BSP取消运单" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
@@ -310,7 +310,7 @@
           <mxGeometry x="-1290" y="848.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pNDF83GQEm-mEWTt1PWk-121" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-980" y="970" width="120" height="40" as="geometry" />
+          <mxGeometry x="-980" y="1040" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pNDF83GQEm-mEWTt1PWk-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pNDF83GQEm-mEWTt1PWk-125" target="pNDF83GQEm-mEWTt1PWk-127">
           <mxGeometry relative="1" as="geometry" />
@@ -413,13 +413,6 @@
             <mxPoint x="-930" y="589" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pNDF83GQEm-mEWTt1PWk-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pNDF83GQEm-mEWTt1PWk-163" target="pNDF83GQEm-mEWTt1PWk-121">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-610" y="990" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="pNDF83GQEm-mEWTt1PWk-163" value="记录定时任务（15天自动退）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-670" y="690" width="120" height="40" as="geometry" />
         </mxCell>
@@ -434,6 +427,12 @@
             <mxPoint x="-1090" y="260" as="sourcePoint" />
             <mxPoint x="-1040" y="210" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="pNDF83GQEm-mEWTt1PWk-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pNDF83GQEm-mEWTt1PWk-172" target="pNDF83GQEm-mEWTt1PWk-121">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pNDF83GQEm-mEWTt1PWk-172" value="触发标准接口状态变更通知" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1130" y="1040" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

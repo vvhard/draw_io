@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T05:45:13.998Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Bgz9nDXp0Q847RPK0bMG" version="20.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-05T06:11:36.350Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="w9JW1YV1DQA-7g60isAL" version="20.2.6" type="github">
   <diagram id="EuHHt0kimzctTxm0cvAj" name="第 1 页">
-    <mxGraphModel dx="3760" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3760" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -107,12 +107,15 @@
           <mxGeometry x="150" y="680" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="pNDF83GQEm-mEWTt1PWk-35" value="GROUP_PUSH_ROUTE_STATUS_TOPIC" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-260" y="730" width="250" height="30" as="geometry" />
+          <mxGeometry x="-150" y="680" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pNDF83GQEm-mEWTt1PWk-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="pNDF83GQEm-mEWTt1PWk-37" target="pNDF83GQEm-mEWTt1PWk-66">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="470" y="700" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="pNDF83GQEm-mEWTt1PWk-188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="pNDF83GQEm-mEWTt1PWk-37" target="pNDF83GQEm-mEWTt1PWk-26">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pNDF83GQEm-mEWTt1PWk-37" value="退单" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="130" y="820" width="120" height="40" as="geometry" />
@@ -475,6 +478,9 @@
         </mxCell>
         <mxCell id="pNDF83GQEm-mEWTt1PWk-187" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="755" y="1360" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pNDF83GQEm-mEWTt1PWk-189" value="GROUP_PUSH_ROUTE_STATUS_TOPIC" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="810" width="250" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

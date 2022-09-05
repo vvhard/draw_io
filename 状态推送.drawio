@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T06:11:36.350Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="w9JW1YV1DQA-7g60isAL" version="20.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-05T06:24:16.167Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="HPzec76DLl15UfkeiErE" version="20.2.6" type="github">
   <diagram id="EuHHt0kimzctTxm0cvAj" name="第 1 页">
     <mxGraphModel dx="3760" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -214,6 +214,9 @@
         </mxCell>
         <mxCell id="pNDF83GQEm-mEWTt1PWk-88" value="COMMON_PUSH_ROUTE_TOPIC" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="400" y="980" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pNDF83GQEm-mEWTt1PWk-190" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pNDF83GQEm-mEWTt1PWk-90" target="pNDF83GQEm-mEWTt1PWk-93">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pNDF83GQEm-mEWTt1PWk-90" value="RouteConsumeListener" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="637.5" y="1050" width="135" height="40" as="geometry" />

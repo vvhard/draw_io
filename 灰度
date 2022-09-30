@@ -1,1 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2022-09-30T03:34:24.291Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" version="20.2.8" etag="AE8BSsdhmXpRL7KN4mZ-" type="github"><diagram id="Dk8QEVIysq3jx333xMWD">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-30T10:45:22.787Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="ugQTPFPUoqAe5F8jd-ER" version="20.2.8" type="github">
+  <diagram id="Dk8QEVIysq3jx333xMWD" name="第 1 页">
+    <mxGraphModel dx="2249" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BqFXtx6I1jxx89Q0-A86-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BqFXtx6I1jxx89Q0-A86-1" target="BqFXtx6I1jxx89Q0-A86-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BqFXtx6I1jxx89Q0-A86-1" value="@EnableGrayClient" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BqFXtx6I1jxx89Q0-A86-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BqFXtx6I1jxx89Q0-A86-4" target="BqFXtx6I1jxx89Q0-A86-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BqFXtx6I1jxx89Q0-A86-4" value="GrayClientAutoConfiguration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="170" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BqFXtx6I1jxx89Q0-A86-5" value="根据gray,enable 是都为true决定。灰度客户端自动配置：&lt;br&gt;GrayManager(恢复管理器)、GraySwitcher(灰度开关)、&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;GrayClientEnrollInitializingDestroyBean&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;初始化实例信息（是否注册灰度实例、是否延迟注册等）、&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;GrayClientInitializer灰度客户端初始化&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="170" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BqFXtx6I1jxx89Q0-A86-7" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;GrayManager&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="22.5" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BqFXtx6I1jxx89Q0-A86-8" value="开启灰度客户端：设置 gray.enable = true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="95" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BqFXtx6I1jxx89Q0-A86-9" value="灰度管理器：&lt;br&gt;维护灰度列表、自身灰度状态、创建灰度决策" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-570" y="12.5" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BqFXtx6I1jxx89Q0-A86-11" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;GraySwitcher&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="97.5" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BqFXtx6I1jxx89Q0-A86-12" value="灰度开关" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-570" y="90" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BqFXtx6I1jxx89Q0-A86-13" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;GrayClientHolder&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="147.5" width="132" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BqFXtx6I1jxx89Q0-A86-15" value="灰度客户端holder，用来保存&lt;br&gt;GrayManager、&lt;br&gt;RequestLocalStorage、&lt;br&gt;LocalStorageLifeCycle、&lt;br&gt;ServerExplainer、&lt;br&gt;ServerListProcessor、&lt;br&gt;GraySwitcher、&lt;br&gt;ServerChooser" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="138.75" width="190" height="122.5" as="geometry" />
+        </mxCell>
+        <mxCell id="BqFXtx6I1jxx89Q0-A86-18" value="GrayClientBeanPostProcessorConfigurstion" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="280" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BqFXtx6I1jxx89Q0-A86-21" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;GrayManager 加载后，进入bean的后置处理器：&lt;br&gt;&lt;span style=&quot;color: rgb(0, 128, 0); font-weight: bold; background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;gray.aware.instanceLocalInfo.enabled = true则&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;pre style=&quot;color: rgb(0, 0, 0); font-size: 9pt; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;&lt;span style=&quot;color: rgb(0, 128, 0); font-weight: bold;&quot;&gt;根据本地实例信息创建&lt;/span&gt;InstanceLocalInfoAwareProcessor，&lt;/pre&gt;&lt;pre style=&quot;color: rgb(0, 0, 0); font-size: 9pt; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;通过后置处理，将实例信息设置到InstanceLocalInfoAware中&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="261.25" width="370" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BqFXtx6I1jxx89Q0-A86-22" value="GrayClientDiscoveryConfigurstion" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="370" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BqFXtx6I1jxx89Q0-A86-23" value="GrayClientBeanPostProcessorConfigurstion" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="585" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BqFXtx6I1jxx89Q0-A86-24" value="GrayClientBeanPostProcessorConfigurstion" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="490" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BqFXtx6I1jxx89Q0-A86-25" value="注入注册中心相关类，&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;InstanceLocalInfoInitiralizer&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="370" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BqFXtx6I1jxx89Q0-A86-26" value="注册http灰度策略工厂(&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;HttpHeaderGrayDecisionFactory&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="460" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BqFXtx6I1jxx89Q0-A86-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BqFXtx6I1jxx89Q0-A86-28" target="BqFXtx6I1jxx89Q0-A86-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BqFXtx6I1jxx89Q0-A86-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BqFXtx6I1jxx89Q0-A86-28" target="BqFXtx6I1jxx89Q0-A86-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BqFXtx6I1jxx89Q0-A86-28" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;自定义http灰度策略判断配置，&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;HttpHeaderGrayDecisionFactory.Config&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="450" width="293" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BqFXtx6I1jxx89Q0-A86-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BqFXtx6I1jxx89Q0-A86-29" target="BqFXtx6I1jxx89Q0-A86-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BqFXtx6I1jxx89Q0-A86-29" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;执行apply方法进行判断是否满足灰度策略&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-415" y="544.5" width="243" height="35.5" as="geometry" />
+        </mxCell>
+        <mxCell id="BqFXtx6I1jxx89Q0-A86-30" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;span style=&quot;color:#808080;font-style:italic;&quot;&gt;从DecisionInputArgs参数中获取请求进行判断&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="625" width="293" height="35.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

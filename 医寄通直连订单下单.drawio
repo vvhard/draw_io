@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T07:05:33.758Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ClXvEDgqoyO1jMdwYavn" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-25T07:09:46.835Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="K6ebxWS6CroaG8HlC1UT" version="20.5.3" type="github">
   <diagram id="1wHA1YOicIQJxsE78Txh" name="第 1 页">
     <mxGraphModel dx="2249" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -99,8 +99,14 @@
         <mxCell id="4R-_x1q0yIeDaGQBQJUN-45" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;span style=&quot;color:#008000;background-color:#f6ebbc;font-weight:bold;&quot;&gt;药品寄递且需要取药凭证：&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;patientName,takeMedicineIdentityName,takeMedicineIdentityValue不能为空&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;包裹数packagesNo不能超过100&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;span style=&quot;color:#008000;font-weight:bold;&quot;&gt;取药凭证名称最大长度为10&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;span style=&quot;color:#008000;font-weight:bold;&quot;&gt;取药凭证内容最大长度为30&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;span style=&quot;color:#008000;font-weight:bold;&quot;&gt;业务订单号不能为空&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;span style=&quot;color:#008000;font-weight:bold;&quot;&gt;微派参数校验&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;没有医院未开启安全核验，无法下安全核验类任务，并且微派任务产品编码为安全核验类任务:医院未开启安全核验，无法下安全核验类任务&lt;br&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;pre style=&quot;font-size: 9pt; font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;开启安全核验(tb_safety_check_config),月结客户的安全核验任务月结卡号不能为空;非月结客户的安全核验任务请使用到付&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-610" y="430.5" width="750" height="229.5" as="geometry" />
         </mxCell>
-        <mxCell id="4R-_x1q0yIeDaGQBQJUN-51" value="&lt;font face=&quot;Courier New&quot; color=&quot;#008000&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;b&gt;幂等校验&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="302.5" y="1020" width="120" height="40" as="geometry" />
+        <mxCell id="4R-_x1q0yIeDaGQBQJUN-53" value="BSP下单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1040" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4R-_x1q0yIeDaGQBQJUN-55" value="保存面单数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1129" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4R-_x1q0yIeDaGQBQJUN-56" value="&lt;pre style=&quot;background-color:#ffffff;color:#000000;font-family:&#39;Courier New&#39;;font-size:9.0pt;&quot;&gt;&lt;span style=&quot;color:#008000;font-weight:bold;&quot;&gt;csim_print&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1120" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

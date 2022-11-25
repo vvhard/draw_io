@@ -1,1 +1,108 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T03:26:10.705Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.5.3" etag="x5uupoPODhlJpkhGHb4U" type="github"><diagram id="1wHA1YOicIQJxsE78Txh">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-25T07:05:33.758Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ClXvEDgqoyO1jMdwYavn" version="20.5.3" type="github">
+  <diagram id="1wHA1YOicIQJxsE78Txh" name="第 1 页">
+    <mxGraphModel dx="2249" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4R-_x1q0yIeDaGQBQJUN-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4R-_x1q0yIeDaGQBQJUN-4" target="4R-_x1q0yIeDaGQBQJUN-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4R-_x1q0yIeDaGQBQJUN-4" value="开始" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="30" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4R-_x1q0yIeDaGQBQJUN-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4R-_x1q0yIeDaGQBQJUN-6" target="4R-_x1q0yIeDaGQBQJUN-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4R-_x1q0yIeDaGQBQJUN-6" value="遍历校验及下单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4R-_x1q0yIeDaGQBQJUN-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4R-_x1q0yIeDaGQBQJUN-8" target="4R-_x1q0yIeDaGQBQJUN-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4R-_x1q0yIeDaGQBQJUN-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4R-_x1q0yIeDaGQBQJUN-8" target="4R-_x1q0yIeDaGQBQJUN-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4R-_x1q0yIeDaGQBQJUN-8" value="是否重下微派任务" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="292.5" width="110" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="4R-_x1q0yIeDaGQBQJUN-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4R-_x1q0yIeDaGQBQJUN-9" target="4R-_x1q0yIeDaGQBQJUN-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4R-_x1q0yIeDaGQBQJUN-9" value="医院、开通业务存在性校验" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="110" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4R-_x1q0yIeDaGQBQJUN-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4R-_x1q0yIeDaGQBQJUN-14" target="4R-_x1q0yIeDaGQBQJUN-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4R-_x1q0yIeDaGQBQJUN-14" value="查询订单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="596" y="320.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4R-_x1q0yIeDaGQBQJUN-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4R-_x1q0yIeDaGQBQJUN-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="656" y="520.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4R-_x1q0yIeDaGQBQJUN-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4R-_x1q0yIeDaGQBQJUN-15" target="4R-_x1q0yIeDaGQBQJUN-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4R-_x1q0yIeDaGQBQJUN-15" value="订单存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="616" y="400.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4R-_x1q0yIeDaGQBQJUN-18" value="开启了安全核验但非药品寄递业务&lt;br&gt;或不开启安全核验&lt;br&gt;且需要下微派任务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="260" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4R-_x1q0yIeDaGQBQJUN-19" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;span style=&quot;color:#008000;font-weight:bold;&quot;&gt;tb_order_third&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="576" y="290.5" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4R-_x1q0yIeDaGQBQJUN-20" value="&lt;pre style=&quot;background-color:#ffffff;color:#000000;font-family:&#39;Courier New&#39;;font-size:9.0pt;&quot;&gt;&lt;span style=&quot;color:#008000;font-weight:bold;&quot;&gt;tb_order_task_record&lt;/span&gt;&lt;/pre&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="846" y="350.5" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4R-_x1q0yIeDaGQBQJUN-22" value="微派下单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="976" y="420.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4R-_x1q0yIeDaGQBQJUN-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4R-_x1q0yIeDaGQBQJUN-26" target="4R-_x1q0yIeDaGQBQJUN-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4R-_x1q0yIeDaGQBQJUN-26" value="需要重下任务" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="786" y="400.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4R-_x1q0yIeDaGQBQJUN-27" value="运单号存在且微派任务下单失败" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="856" y="400.5" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4R-_x1q0yIeDaGQBQJUN-31" value="&lt;pre style=&quot;background-color:#ffffff;color:#000000;font-family:&#39;Courier New&#39;;font-size:9.0pt;&quot;&gt;&lt;span style=&quot;color:#008000;font-weight:bold;&quot;&gt;tb_order_task_config&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1116" y="355.5" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4R-_x1q0yIeDaGQBQJUN-33" value="封箱核验" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="976" y="500.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4R-_x1q0yIeDaGQBQJUN-34" value="封箱核验" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="976" y="585" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4R-_x1q0yIeDaGQBQJUN-35" value="封箱核验" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="976" y="670.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4R-_x1q0yIeDaGQBQJUN-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4R-_x1q0yIeDaGQBQJUN-37" target="4R-_x1q0yIeDaGQBQJUN-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4R-_x1q0yIeDaGQBQJUN-37" value="下单参数拼装" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="800" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4R-_x1q0yIeDaGQBQJUN-39" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;span style=&quot;color:#008000;font-weight:bold;&quot;&gt;tb_safety_check_config&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="422.5" y="340" width="155" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4R-_x1q0yIeDaGQBQJUN-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4R-_x1q0yIeDaGQBQJUN-40" target="4R-_x1q0yIeDaGQBQJUN-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4R-_x1q0yIeDaGQBQJUN-40" value="参数校验" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="900.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4R-_x1q0yIeDaGQBQJUN-45" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;span style=&quot;color:#008000;background-color:#f6ebbc;font-weight:bold;&quot;&gt;药品寄递且需要取药凭证：&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;patientName,takeMedicineIdentityName,takeMedicineIdentityValue不能为空&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;包裹数packagesNo不能超过100&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;span style=&quot;color:#008000;font-weight:bold;&quot;&gt;取药凭证名称最大长度为10&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;span style=&quot;color:#008000;font-weight:bold;&quot;&gt;取药凭证内容最大长度为30&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;span style=&quot;color:#008000;font-weight:bold;&quot;&gt;业务订单号不能为空&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;span style=&quot;color:#008000;font-weight:bold;&quot;&gt;微派参数校验&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;没有医院未开启安全核验，无法下安全核验类任务，并且微派任务产品编码为安全核验类任务:医院未开启安全核验，无法下安全核验类任务&lt;br&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;pre style=&quot;font-size: 9pt; font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;开启安全核验(tb_safety_check_config),月结客户的安全核验任务月结卡号不能为空;非月结客户的安全核验任务请使用到付&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="430.5" width="750" height="229.5" as="geometry" />
+        </mxCell>
+        <mxCell id="4R-_x1q0yIeDaGQBQJUN-51" value="&lt;font face=&quot;Courier New&quot; color=&quot;#008000&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;b&gt;幂等校验&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="302.5" y="1020" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

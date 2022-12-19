@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-19T16:23:14.155Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="n2uNr16GtWSLDJF4L341" version="20.2.8" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2022-12-19T16:24:30.476Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="f1D5UjjoWSEcD8U-2d7t" version="20.2.8" type="github" pages="7">
   <diagram id="TbDEX9xW6UQDXxYtpqDP" name="订单导入">
     <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1395,7 +1395,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="uar1PXW-Y1aHz7Pv53E_" name="第 7 页">
+  <diagram id="uar1PXW-Y1aHz7Pv53E_" name="请求处理类图">
     <mxGraphModel dx="1778" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -1550,6 +1550,9 @@
         <mxCell id="3ixkmhIuMhFr65AYf68X-68" value="+ do(request): R" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;strokeWidth=1;fontFamily=Helvetica;fontSize=11;fontColor=default;html=1;" vertex="1" parent="3ixkmhIuMhFr65AYf68X-66">
           <mxGeometry y="34" width="150" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="3ixkmhIuMhFr65AYf68X-98" value="invoke" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=3;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;startArrow=none;startFill=0;endArrow=open;endFill=0;" edge="1" parent="1" source="3ixkmhIuMhFr65AYf68X-69" target="3ixkmhIuMhFr65AYf68X-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="3ixkmhIuMhFr65AYf68X-69" value="OpenApiController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;strokeColor=#82b366;strokeWidth=1;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=#d5e8d4;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="90" width="190" height="60" as="geometry" />
         </mxCell>
@@ -1662,6 +1665,12 @@
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
             <mxPoint x="570" y="499.5" as="sourcePoint" />
             <mxPoint x="720" y="499.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ixkmhIuMhFr65AYf68X-100" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;jumpSize=3;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="3ixkmhIuMhFr65AYf68X-12" target="3ixkmhIuMhFr65AYf68X-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="70" y="500" as="sourcePoint" />
+            <mxPoint x="230" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

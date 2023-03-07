@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-07T06:31:11.450Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="q0ll24vpgid3LRqiBXWE" version="20.8.23" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-03-07T07:05:41.166Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="qKCY6wimZHdvPFbL8gyn" version="20.8.23" type="github" pages="2">
   <diagram name="循环依赖" id="z-jffznrJJ4cK5WTZ5Pi">
     <mxGraphModel dx="2086" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -237,7 +237,7 @@
         <mxCell id="v6lZ8U2gEN3fAU5ixz41-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v6lZ8U2gEN3fAU5ixz41-22" target="v6lZ8U2gEN3fAU5ixz41-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="v6lZ8U2gEN3fAU5ixz41-22" value="bean存在 &lt;br&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="v6lZ8U2gEN3fAU5ixz41-22" value="工厂为空" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1100" y="174" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="v6lZ8U2gEN3fAU5ixz41-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.105;entryY=0.515;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="v6lZ8U2gEN3fAU5ixz41-23" target="v6lZ8U2gEN3fAU5ixz41-22">
@@ -255,13 +255,13 @@
         <mxCell id="v6lZ8U2gEN3fAU5ixz41-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="v6lZ8U2gEN3fAU5ixz41-32" target="v6lZ8U2gEN3fAU5ixz41-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1290" y="280" />
+              <mxPoint x="1341" y="280" />
               <mxPoint x="170" y="280" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="v6lZ8U2gEN3fAU5ixz41-32" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;添加到三级缓存、单例池&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1230" y="199" width="120" height="30" as="geometry" />
+        <mxCell id="v6lZ8U2gEN3fAU5ixz41-32" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;factories.getObject()&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1255" y="199" width="155" height="30" as="geometry" />
         </mxCell>
         <mxCell id="v6lZ8U2gEN3fAU5ixz41-34" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="460" y="255" width="30" height="20" as="geometry" />
@@ -443,7 +443,7 @@
         <mxCell id="pLNkoSptzZLkmRmPIXeJ-9" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;属性注入&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1160" y="1190" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pLNkoSptzZLkmRmPIXeJ-11" value="执行生命周期方法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="pLNkoSptzZLkmRmPIXeJ-11" value="执行生命周期方法、aop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1017.75" y="1270" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pLNkoSptzZLkmRmPIXeJ-12" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;初始化&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -452,14 +452,62 @@
         <mxCell id="pLNkoSptzZLkmRmPIXeJ-13" value="populateBean" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1017.75" y="1190" width="130" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="pLNkoSptzZLkmRmPIXeJ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pLNkoSptzZLkmRmPIXeJ-16" target="pLNkoSptzZLkmRmPIXeJ-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="pLNkoSptzZLkmRmPIXeJ-16" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;addSingletonFactory&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1370" y="1055" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pLNkoSptzZLkmRmPIXeJ-19" value="添加一个可以产生当前对象工厂，通过工厂得到bean对象" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1357.5" y="1100" width="175" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pLNkoSptzZLkmRmPIXeJ-20" value="singletonObjectFactory&lt;br&gt;生产bean" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="pLNkoSptzZLkmRmPIXeJ-20" value="singletonFactories&lt;br&gt;生产bean" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="917.5" y="140" width="125" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNkoSptzZLkmRmPIXeJ-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pLNkoSptzZLkmRmPIXeJ-21" target="pLNkoSptzZLkmRmPIXeJ-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNkoSptzZLkmRmPIXeJ-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pLNkoSptzZLkmRmPIXeJ-21" target="pLNkoSptzZLkmRmPIXeJ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNkoSptzZLkmRmPIXeJ-21" value="一级缓存存在bean?" style="rhombus;whiteSpace=wrap;html=1;strokeColor=default;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="1165" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNkoSptzZLkmRmPIXeJ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pLNkoSptzZLkmRmPIXeJ-24" target="pLNkoSptzZLkmRmPIXeJ-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNkoSptzZLkmRmPIXeJ-24" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;factory添加到二级缓存&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="1190" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNkoSptzZLkmRmPIXeJ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pLNkoSptzZLkmRmPIXeJ-26" target="pLNkoSptzZLkmRmPIXeJ-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNkoSptzZLkmRmPIXeJ-26" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;三级缓存移除半成品对象&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="1275" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNkoSptzZLkmRmPIXeJ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="pLNkoSptzZLkmRmPIXeJ-28" target="pLNkoSptzZLkmRmPIXeJ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNkoSptzZLkmRmPIXeJ-28" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;注册bean&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="1365" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNkoSptzZLkmRmPIXeJ-32" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1687" y="1172" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNkoSptzZLkmRmPIXeJ-36" value="earlySingletonObjects" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1931" y="1270" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNkoSptzZLkmRmPIXeJ-38" value="singletonFactories" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1930" y="1200" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNkoSptzZLkmRmPIXeJ-39" value="生产半成品bean&lt;br&gt;&lt;pre style=&quot;border-color: var(--border-color); font-size: 9pt; background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;添加到三级缓存&lt;/pre&gt;&lt;pre style=&quot;border-color: var(--border-color); font-size: 9pt; background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;二级缓存移除工厂&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="100" width="125" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNkoSptzZLkmRmPIXeJ-40" value="三级缓存的作用:，如果只使用两级缓存，则早期对象map里面只能存放一个对象，如果依赖注入需要注入不同状态的对象时，无法做到。如过多一级缓存存放工厂则可以根据需要生产不同的对象进行注入。例如在aop场景，则可以通过工厂生产一个bean，在第一次getSingleton的时候，根据配置返回一个代理对象" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="910" width="270" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pLNkoSptzZLkmRmPIXeJ-41" value="先从三级缓存获取原因：&lt;br&gt;1.&amp;nbsp; 三级缓存存放的是一个对象，如果有直接获取即可，不用再创建" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="610" y="40" width="270" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-07T07:05:41.166Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="qKCY6wimZHdvPFbL8gyn" version="20.8.23" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-03-07T07:08:38.543Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="G5mGPB8rXd_uLMkUF0n3" version="20.8.23" type="github" pages="2">
   <diagram name="循环依赖" id="z-jffznrJJ4cK5WTZ5Pi">
     <mxGraphModel dx="2086" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -143,7 +143,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="61kilDFM7VT6fAVXh5Lf" name="doGetBean">
-    <mxGraphModel dx="2152" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2764" dy="1152" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -503,11 +503,8 @@
         <mxCell id="pLNkoSptzZLkmRmPIXeJ-39" value="生产半成品bean&lt;br&gt;&lt;pre style=&quot;border-color: var(--border-color); font-size: 9pt; background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;添加到三级缓存&lt;/pre&gt;&lt;pre style=&quot;border-color: var(--border-color); font-size: 9pt; background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;二级缓存移除工厂&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1260" y="100" width="125" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="pLNkoSptzZLkmRmPIXeJ-40" value="三级缓存的作用:，如果只使用两级缓存，则早期对象map里面只能存放一个对象，如果依赖注入需要注入不同状态的对象时，无法做到。如过多一级缓存存放工厂则可以根据需要生产不同的对象进行注入。例如在aop场景，则可以通过工厂生产一个bean，在第一次getSingleton的时候，根据配置返回一个代理对象" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="910" width="270" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="pLNkoSptzZLkmRmPIXeJ-41" value="先从三级缓存获取原因：&lt;br&gt;1.&amp;nbsp; 三级缓存存放的是一个对象，如果有直接获取即可，不用再创建" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="610" y="40" width="270" height="30" as="geometry" />
+        <mxCell id="pLNkoSptzZLkmRmPIXeJ-40" value="&lt;b&gt;先从三级缓存获取原因：&lt;/b&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;1.&amp;nbsp; 三级缓存存放的是一个对象，如果有直接获取即可，不用再创建&lt;br&gt;&lt;b&gt;三级缓存的作用:&lt;/b&gt;&lt;br&gt;如果只使用两级缓存，则早期对象map里面只能存放一个对象，如果依赖注入需要注入不同状态的对象时，无法做到。如过多一级缓存存放工厂则可以根据需要生产不同的对象进行注入。例如在aop场景，则可以通过工厂生产一个bean的时候，根据配置返回一个代理对象(AbstractAutowireCapableBeanFactory#resolveBeforeInstantiation)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="582.5" y="20" width="460" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

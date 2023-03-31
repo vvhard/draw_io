@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-31T09:12:48.017Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="1KPMH1hQbe7HewuXZ3tm" version="21.0.8" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-03-31T09:34:47.659Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="n2utTUJhGecQ3ZUl44M7" version="21.0.8" type="github" pages="10">
   <diagram id="TbDEX9xW6UQDXxYtpqDP" name="订单导入">
-    <mxGraphModel dx="1259" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1209" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -289,7 +289,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SBfxKGozbUk5vd_RHHLc" name="人工下单">
-    <mxGraphModel dx="1259" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1123" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -511,41 +511,41 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xsQ0Vmg3pvWoea_e4-QC" name="导入导出">
-    <mxGraphModel dx="1662" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1572" dy="944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="T14XuqG0fWhVG9mBUIHq-1" value="&lt;span style=&quot;font-family: consolas, &amp;quot;lucida console&amp;quot;, &amp;quot;courier new&amp;quot;, monospace; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;/submitBatchExportTask&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="T14XuqG0fWhVG9mBUIHq-1" value="&lt;span style=&quot;font-family: consolas, &amp;quot;lucida console&amp;quot;, &amp;quot;courier new&amp;quot;, monospace; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;/submitBatchExportTask&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="30" y="30" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="T14XuqG0fWhVG9mBUIHq-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="T14XuqG0fWhVG9mBUIHq-2" target="T14XuqG0fWhVG9mBUIHq-3">
+        <mxCell id="T14XuqG0fWhVG9mBUIHq-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" parent="1" source="T14XuqG0fWhVG9mBUIHq-2" target="T14XuqG0fWhVG9mBUIHq-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T14XuqG0fWhVG9mBUIHq-2" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="T14XuqG0fWhVG9mBUIHq-2" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="140" y="110" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="T14XuqG0fWhVG9mBUIHq-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="T14XuqG0fWhVG9mBUIHq-3" target="T14XuqG0fWhVG9mBUIHq-5">
+        <mxCell id="T14XuqG0fWhVG9mBUIHq-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" parent="1" source="T14XuqG0fWhVG9mBUIHq-3" target="T14XuqG0fWhVG9mBUIHq-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T14XuqG0fWhVG9mBUIHq-3" value="提交任务" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="T14XuqG0fWhVG9mBUIHq-3" value="提交任务" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="135" y="220" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="T14XuqG0fWhVG9mBUIHq-4" value="参数封装 ，&lt;br&gt;creatorId、&lt;br&gt;merchantId、&lt;br&gt;organId&lt;br&gt;taskType&lt;br&gt;token&lt;br&gt;importKey&lt;br&gt;params&lt;br&gt;languageCode" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="T14XuqG0fWhVG9mBUIHq-4" value="参数封装 ，&lt;br&gt;creatorId、&lt;br&gt;merchantId、&lt;br&gt;organId&lt;br&gt;taskType&lt;br&gt;token&lt;br&gt;importKey&lt;br&gt;params&lt;br&gt;languageCode" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="290" y="150" width="200" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="T14XuqG0fWhVG9mBUIHq-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" edge="1" parent="1" source="T14XuqG0fWhVG9mBUIHq-5" target="T14XuqG0fWhVG9mBUIHq-8">
+        <mxCell id="T14XuqG0fWhVG9mBUIHq-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#000000;" parent="1" source="T14XuqG0fWhVG9mBUIHq-5" target="T14XuqG0fWhVG9mBUIHq-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="T14XuqG0fWhVG9mBUIHq-5" value="调用manager" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="T14XuqG0fWhVG9mBUIHq-5" value="调用manager" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="135" y="360" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="T14XuqG0fWhVG9mBUIHq-7" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;span style=&quot;color:#008000;font-weight:bold;&quot;&gt;/inner/manager/task/submit&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="T14XuqG0fWhVG9mBUIHq-7" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;span style=&quot;color:#008000;font-weight:bold;&quot;&gt;/inner/manager/task/submit&lt;/span&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="200" y="320" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="T14XuqG0fWhVG9mBUIHq-8" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="T14XuqG0fWhVG9mBUIHq-8" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="140" y="470" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FNuYNBmbpsi-JBGIDYDW-1" value="OSS" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=12;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="FNuYNBmbpsi-JBGIDYDW-1" value="OSS" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=12;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="420" y="80" width="60" height="80" as="geometry" />
         </mxCell>
       </root>
@@ -1683,7 +1683,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PevEsMBh4qj42PB0uJss" name="电子回单/拍照回传">
-    <mxGraphModel dx="1259" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="786" dy="472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1934,10 +1934,15 @@
         <mxCell id="yr4mv8U99EuHe9gsPrdc-16" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="3vkcnuTn7oKqLFtOqB-8-10" target="yr4mv8U99EuHe9gsPrdc-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="yr4mv8U99EuHe9gsPrdc-114" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="yr4mv8U99EuHe9gsPrdc-16">
+          <mxGeometry x="-0.4045" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="3vkcnuTn7oKqLFtOqB-8-10" value="增值服务" style="rhombus;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-3217" y="-1980" width="110" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="3vkcnuTn7oKqLFtOqB-8-15" value="新增字段:&lt;br&gt;拍照回传备注 takePhototBackRemark&lt;br&gt;签回单备注 signbackRemark&lt;br&gt;签回单份数 signbackNum" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="3vkcnuTn7oKqLFtOqB-8-15" value="新增字段:&lt;br&gt;拍照回传备注 takePhototBackRemark&lt;br&gt;签回单备注 signbackRemark&lt;br&gt;签回单份数 signbackNum&lt;br&gt;增值服务表" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-3060" y="-2231" width="380" height="71" as="geometry" />
         </mxCell>
         <mxCell id="yr4mv8U99EuHe9gsPrdc-18" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="yr4mv8U99EuHe9gsPrdc-15" target="yr4mv8U99EuHe9gsPrdc-17">
@@ -1961,12 +1966,17 @@
         <mxCell id="yr4mv8U99EuHe9gsPrdc-21" value="保存" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-3237" y="-1560" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yr4mv8U99EuHe9gsPrdc-28" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="yr4mv8U99EuHe9gsPrdc-24" target="yr4mv8U99EuHe9gsPrdc-26">
+        <mxCell id="yr4mv8U99EuHe9gsPrdc-28" value="否" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="yr4mv8U99EuHe9gsPrdc-24" target="yr4mv8U99EuHe9gsPrdc-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yr4mv8U99EuHe9gsPrdc-33" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yr4mv8U99EuHe9gsPrdc-24" target="yr4mv8U99EuHe9gsPrdc-34">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-2942" y="-1385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yr4mv8U99EuHe9gsPrdc-115" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="yr4mv8U99EuHe9gsPrdc-33">
+          <mxGeometry x="-0.1836" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yr4mv8U99EuHe9gsPrdc-24" value="下运单" style="rhombus;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
@@ -1996,7 +2006,7 @@
         <mxCell id="yr4mv8U99EuHe9gsPrdc-38" value="BSP下单" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-2712" y="-1410" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yr4mv8U99EuHe9gsPrdc-40" value="&lt;p style=&quot;margin: 0px; text-rendering: optimizelegibility; font-feature-settings: &amp;quot;kern&amp;quot;; font-kerning: normal; color: rgb(51, 51, 51); font-family: &amp;quot;Arial Normal&amp;quot;, Arial; font-size: 13px;&quot;&gt;签回单&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px; text-rendering: optimizelegibility; font-feature-settings: &amp;quot;kern&amp;quot;; font-kerning: normal; color: rgb(51, 51, 51); font-family: &amp;quot;Arial Normal&amp;quot;, Arial; font-size: 13px;&quot;&gt;{&lt;/p&gt;&lt;p style=&quot;margin: 0px; text-rendering: optimizelegibility; font-feature-settings: &amp;quot;kern&amp;quot;; font-kerning: normal; color: rgb(51, 51, 51); font-family: &amp;quot;Arial Normal&amp;quot;, Arial; font-size: 13px;&quot;&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp; &quot;attrVal&quot;: &quot;3&quot;,&lt;/p&gt;&lt;p style=&quot;margin: 0px; text-rendering: optimizelegibility; font-feature-settings: &amp;quot;kern&amp;quot;; font-kerning: normal; color: rgb(51, 51, 51); font-family: &amp;quot;Arial Normal&amp;quot;, Arial; font-size: 13px;&quot;&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp; &quot;attrName&quot;: &quot;signbackNum&quot;&lt;/p&gt;&lt;p style=&quot;margin: 0px; text-rendering: optimizelegibility; font-feature-settings: &amp;quot;kern&amp;quot;; font-kerning: normal; color: rgb(51, 51, 51); font-family: &amp;quot;Arial Normal&amp;quot;, Arial; font-size: 13px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;},&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; text-rendering: optimizelegibility; font-feature-settings: &amp;quot;kern&amp;quot;; font-kerning: normal; color: rgb(51, 51, 51); font-family: &amp;quot;Arial Normal&amp;quot;, Arial; font-size: 13px;&quot;&gt;{&lt;/p&gt;&lt;p style=&quot;margin: 0px; text-rendering: optimizelegibility; font-feature-settings: &amp;quot;kern&amp;quot;; font-kerning: normal; color: rgb(51, 51, 51); font-family: &amp;quot;Arial Normal&amp;quot;, Arial; font-size: 13px;&quot;&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp; &quot;attrVal&quot;: &quot;签回单备注&quot;,&lt;/p&gt;&lt;p style=&quot;margin: 0px; text-rendering: optimizelegibility; font-feature-settings: &amp;quot;kern&amp;quot;; font-kerning: normal; color: rgb(51, 51, 51); font-family: &amp;quot;Arial Normal&amp;quot;, Arial; font-size: 13px;&quot;&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp; &quot;attrName&quot;: &quot;signBackRemark&quot;&lt;/p&gt;&lt;p style=&quot;margin: 0px; text-rendering: optimizelegibility; font-feature-settings: &amp;quot;kern&amp;quot;; font-kerning: normal; color: rgb(51, 51, 51); font-family: &amp;quot;Arial Normal&amp;quot;, Arial; font-size: 13px;&quot;&gt;&amp;nbsp;},&lt;/p&gt;&lt;p style=&quot;margin: 0px; text-rendering: optimizelegibility; font-feature-settings: &amp;quot;kern&amp;quot;; font-kerning: normal; color: rgb(51, 51, 51); font-family: &amp;quot;Arial Normal&amp;quot;, Arial; font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; text-rendering: optimizelegibility; font-feature-settings: &amp;quot;kern&amp;quot;; font-kerning: normal; color: rgb(51, 51, 51); font-family: &amp;quot;Arial Normal&amp;quot;, Arial; font-size: 13px;&quot;&gt;IN91_REMARK&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; text-rendering: optimizelegibility; font-feature-settings: &amp;quot;kern&amp;quot;; font-kerning: normal; color: rgb(51, 51, 51); font-family: &amp;quot;Arial Normal&amp;quot;, Arial; font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="yr4mv8U99EuHe9gsPrdc-40" value="&lt;p style=&quot;margin: 0px; text-rendering: optimizelegibility; font-feature-settings: &amp;quot;kern&amp;quot;; font-kerning: normal; color: rgb(51, 51, 51); font-family: &amp;quot;Arial Normal&amp;quot;, Arial; font-size: 13px;&quot;&gt;签回单&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px; text-rendering: optimizelegibility; font-feature-settings: &amp;quot;kern&amp;quot;; font-kerning: normal; color: rgb(51, 51, 51); font-family: &amp;quot;Arial Normal&amp;quot;, Arial; font-size: 13px;&quot;&gt;{&lt;/p&gt;&lt;p style=&quot;margin: 0px; text-rendering: optimizelegibility; font-feature-settings: &amp;quot;kern&amp;quot;; font-kerning: normal; color: rgb(51, 51, 51); font-family: &amp;quot;Arial Normal&amp;quot;, Arial; font-size: 13px;&quot;&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp; &quot;attrVal&quot;: &quot;3&quot;,&lt;/p&gt;&lt;p style=&quot;margin: 0px; text-rendering: optimizelegibility; font-feature-settings: &amp;quot;kern&amp;quot;; font-kerning: normal; color: rgb(51, 51, 51); font-family: &amp;quot;Arial Normal&amp;quot;, Arial; font-size: 13px;&quot;&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp; &quot;attrName&quot;: &quot;signbackNum&quot;&lt;/p&gt;&lt;p style=&quot;margin: 0px; text-rendering: optimizelegibility; font-feature-settings: &amp;quot;kern&amp;quot;; font-kerning: normal; color: rgb(51, 51, 51); font-family: &amp;quot;Arial Normal&amp;quot;, Arial; font-size: 13px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;},&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; text-rendering: optimizelegibility; font-feature-settings: &amp;quot;kern&amp;quot;; font-kerning: normal; color: rgb(51, 51, 51); font-family: &amp;quot;Arial Normal&amp;quot;, Arial; font-size: 13px;&quot;&gt;{&lt;/p&gt;&lt;p style=&quot;margin: 0px; text-rendering: optimizelegibility; font-feature-settings: &amp;quot;kern&amp;quot;; font-kerning: normal; color: rgb(51, 51, 51); font-family: &amp;quot;Arial Normal&amp;quot;, Arial; font-size: 13px;&quot;&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp; &quot;attrVal&quot;: &quot;签回单备注&quot;,&lt;/p&gt;&lt;p style=&quot;margin: 0px; text-rendering: optimizelegibility; font-feature-settings: &amp;quot;kern&amp;quot;; font-kerning: normal; color: rgb(51, 51, 51); font-family: &amp;quot;Arial Normal&amp;quot;, Arial; font-size: 13px;&quot;&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp; &quot;attrName&quot;: &quot;signBackRemark&quot;&lt;/p&gt;&lt;p style=&quot;margin: 0px; text-rendering: optimizelegibility; font-feature-settings: &amp;quot;kern&amp;quot;; font-kerning: normal; color: rgb(51, 51, 51); font-family: &amp;quot;Arial Normal&amp;quot;, Arial; font-size: 13px;&quot;&gt;&amp;nbsp;},&lt;/p&gt;&lt;p style=&quot;margin: 0px; text-rendering: optimizelegibility; font-feature-settings: &amp;quot;kern&amp;quot;; font-kerning: normal; color: rgb(51, 51, 51); font-family: &amp;quot;Arial Normal&amp;quot;, Arial; font-size: 13px;&quot;&gt;待确认字段&lt;/p&gt;&lt;p style=&quot;margin: 0px; text-rendering: optimizelegibility; font-feature-settings: &amp;quot;kern&amp;quot;; font-kerning: normal; color: rgb(51, 51, 51); font-family: &amp;quot;Arial Normal&amp;quot;, Arial; font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; text-rendering: optimizelegibility; font-feature-settings: &amp;quot;kern&amp;quot;; font-kerning: normal; color: rgb(51, 51, 51); font-family: &amp;quot;Arial Normal&amp;quot;, Arial; font-size: 13px;&quot;&gt;拍照回传&lt;/p&gt;&lt;p style=&quot;margin: 0px; text-rendering: optimizelegibility; font-feature-settings: &amp;quot;kern&amp;quot;; font-kerning: normal; color: rgb(51, 51, 51); font-family: &amp;quot;Arial Normal&amp;quot;, Arial; font-size: 13px;&quot;&gt;IN91_REMARK&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; text-rendering: optimizelegibility; font-feature-settings: &amp;quot;kern&amp;quot;; font-kerning: normal; color: rgb(51, 51, 51); font-family: &amp;quot;Arial Normal&amp;quot;, Arial; font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-2962" y="-1330" width="240" height="150" as="geometry" />
         </mxCell>
         <mxCell id="yr4mv8U99EuHe9gsPrdc-64" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="yr4mv8U99EuHe9gsPrdc-65" target="yr4mv8U99EuHe9gsPrdc-71">
@@ -2016,7 +2026,7 @@
           <mxGeometry x="-1617" y="-2210" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="yr4mv8U99EuHe9gsPrdc-68" value="o_order_template" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-2367" y="-1855.5" width="160" height="30" as="geometry" />
+          <mxGeometry x="-2380" y="-1850.5" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yr4mv8U99EuHe9gsPrdc-69" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="yr4mv8U99EuHe9gsPrdc-71" target="yr4mv8U99EuHe9gsPrdc-73">
           <mxGeometry relative="1" as="geometry" />
@@ -2075,7 +2085,7 @@
         <mxCell id="yr4mv8U99EuHe9gsPrdc-86" value="批量导入" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-2709" y="-2130" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yr4mv8U99EuHe9gsPrdc-91" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="yr4mv8U99EuHe9gsPrdc-87" target="yr4mv8U99EuHe9gsPrdc-90">
+        <mxCell id="yr4mv8U99EuHe9gsPrdc-91" value="f否" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="yr4mv8U99EuHe9gsPrdc-87" target="yr4mv8U99EuHe9gsPrdc-90">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yr4mv8U99EuHe9gsPrdc-94" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="yr4mv8U99EuHe9gsPrdc-87">
@@ -2126,7 +2136,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yr4mv8U99EuHe9gsPrdc-113" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;前端接口添加字段&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;拍照回传备注 takePhototBackRemark&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;签回单备注 signbackRemark&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;签回单份数 signbackNum&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-1447" y="-2210" width="190" height="30" as="geometry" />
+          <mxGeometry x="-1447" y="-2260" width="237" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-RlvoHpUbIxeE9BT2BM-1" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1、拍照回传类型 1 2 3 4 5 6 7&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2、&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;0 &amp;lt; 拍照张数&amp;nbsp; &amp;lt;=20&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3、拍照备注不能超过20个字符&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2970" y="-1740" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Q-RlvoHpUbIxeE9BT2BM-2" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1、1&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;lt;=&amp;nbsp; 回单份数&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2、回单备注不能超过20个字符&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-2970" y="-1630" width="230" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-31T08:44:01.714Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="kBk2ShJBTlcxarF0NWS6" version="21.0.8" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-03-31T09:12:48.017Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="1KPMH1hQbe7HewuXZ3tm" version="21.0.8" type="github" pages="10">
   <diagram id="TbDEX9xW6UQDXxYtpqDP" name="订单导入">
     <mxGraphModel dx="1259" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1913,7 +1913,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="p8D5LfYb-Y10ZPVpsIVB" name="1.8.0">
-    <mxGraphModel dx="6072" dy="3567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5344" dy="3064" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2124,6 +2124,9 @@
             <mxPoint x="-2830" y="-1710" as="sourcePoint" />
             <mxPoint x="-2780" y="-1760" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="yr4mv8U99EuHe9gsPrdc-113" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;前端接口添加字段&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;拍照回传备注 takePhototBackRemark&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;签回单备注 signbackRemark&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;签回单份数 signbackNum&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-1447" y="-2210" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

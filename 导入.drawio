@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-07T10:33:13.556Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="dEainB5n4cKzA2Xvpr8s" version="21.3.7" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-06-07T11:12:06.945Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="K4vVa_ZvsF46_aE8N_Ki" version="21.3.7" type="github" pages="11">
   <diagram id="TbDEX9xW6UQDXxYtpqDP" name="订单导入">
     <mxGraphModel dx="1259" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2148,7 +2148,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Ah5fBtvztAKAsyiltNAD" name="1.11.0">
-    <mxGraphModel dx="1259" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1481" dy="881" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2326,7 +2326,7 @@
         <mxCell id="4U2IwZ60q2tAxxNXXhRO-60" value="图片/视频资源上传" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="231" y="1760" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4U2IwZ60q2tAxxNXXhRO-64" value="当前时间晚于 计划发布时间" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="4U2IwZ60q2tAxxNXXhRO-64" value="当前时间小于 计划发布时间" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="370" y="1485" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="4U2IwZ60q2tAxxNXXhRO-65" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -2375,6 +2375,12 @@
         </mxCell>
         <mxCell id="4U2IwZ60q2tAxxNXXhRO-90" value="广告id&lt;br&gt;更新时间&lt;br&gt;广告状态&lt;br&gt;任务状态" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="617.5" y="1615" width="142.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4U2IwZ60q2tAxxNXXhRO-97" value="TODO 缓存，分级，按全部、指定。数据结构&lt;br&gt;TODO 考虑结合发布时间、失效时间进行状态， 应用内过滤" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="40" width="370" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4U2IwZ60q2tAxxNXXhRO-99" value="记录CDN路径" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="2035" width="82.5" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

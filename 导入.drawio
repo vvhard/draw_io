@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-07T09:37:47.076Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="7Ql3W4VZpF14hqxwUhQO" version="21.3.7" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-06-07T10:04:18.385Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="eebRo57NcPNouHhtCa2I" version="21.3.7" type="github" pages="11">
   <diagram id="TbDEX9xW6UQDXxYtpqDP" name="订单导入">
     <mxGraphModel dx="1259" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2375,12 +2375,6 @@
         </mxCell>
         <mxCell id="4U2IwZ60q2tAxxNXXhRO-90" value="广告id&lt;br&gt;更新时间&lt;br&gt;广告状态&lt;br&gt;任务状态" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="617.5" y="1615" width="142.5" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="4U2IwZ60q2tAxxNXXhRO-91" value="定时任务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="880" y="1150" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="4U2IwZ60q2tAxxNXXhRO-92" value="查询记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="880" y="1280" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

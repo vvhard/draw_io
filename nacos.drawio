@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-29T10:21:11.891Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ShxtCpQ_h3yNyXotEqmt" version="21.5.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-06-29T10:22:49.090Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="UYFH-fEaBfcPjAZ392m6" version="21.5.2" type="github" pages="2">
   <diagram id="I6KOGiGYZ_rvQLXAzaR7" name="服务注册">
     <mxGraphModel dx="1259" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -342,8 +342,8 @@
         <mxCell id="tWsio1Wf9U8FyPwOoSbM-76" value="allBus" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="tWsio1Wf9U8FyPwOoSbM-79">
           <mxGeometry x="15.935000000000173" y="7.814999999999827" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tWsio1Wf9U8FyPwOoSbM-84" value="遍历allBus, 如果请求中的配置文件，groupKey，发生变化。发送response" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1810" y="1310" width="250" height="30" as="geometry" />
+        <mxCell id="tWsio1Wf9U8FyPwOoSbM-84" value="遍历allBus, 如果请求中的配置文件，groupKey，发生变化。&lt;br&gt;发送response，并从队列移除" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1850" y="1300" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="tWsio1Wf9U8FyPwOoSbM-85" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;ConcurrentLinkedQueue&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1653.99" y="1124" width="176" height="30" as="geometry" />

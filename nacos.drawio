@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-29T10:36:13.842Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="rsL91b6NevsnCaDd0_Mn" version="21.5.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-07-03T04:28:49.736Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="OGYE4YJ54RSVQxjsshpm" version="21.5.2" type="github" pages="2">
   <diagram id="I6KOGiGYZ_rvQLXAzaR7" name="服务注册">
     <mxGraphModel dx="1259" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="kEoKz5z6KRrPK4yg6y_2" name="长轮询">
-    <mxGraphModel dx="1876" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2308" dy="881" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -303,8 +303,8 @@
         <mxCell id="tWsio1Wf9U8FyPwOoSbM-60" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;pre style=&quot;border-color: var(--border-color); font-size: 9pt; font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;注册事件到Publisher&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2080" y="931" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tWsio1Wf9U8FyPwOoSbM-62" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;LocalDataChangeEvent&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;NotifyCenter.registerToPublisher(LocalDataChangeEvent.&lt;span style=&quot;color:#000080;font-weight:bold;&quot;&gt;class&lt;/span&gt;, NotifyCenter.&lt;span style=&quot;color:#660e7a;font-style:italic;&quot;&gt;ringBufferSize&lt;/span&gt;)&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2250" y="931" width="650" height="30" as="geometry" />
+        <mxCell id="tWsio1Wf9U8FyPwOoSbM-62" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;LocalDataChangeEvent&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;NotifyCenter.registerToPublisher(LocalDataChangeEvent.&lt;span style=&quot;color:#000080;font-weight:bold;&quot;&gt;class&lt;/span&gt;, &lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;                                NotifyCenter.&lt;span style=&quot;color:#660e7a;font-style:italic;&quot;&gt;ringBufferSize&lt;/span&gt;)&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2250" y="911" width="440" height="69" as="geometry" />
         </mxCell>
         <mxCell id="tWsio1Wf9U8FyPwOoSbM-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tWsio1Wf9U8FyPwOoSbM-63" target="tWsio1Wf9U8FyPwOoSbM-66">
           <mxGeometry relative="1" as="geometry" />
@@ -316,6 +316,9 @@
           <mxGeometry x="2261" y="1031" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tWsio1Wf9U8FyPwOoSbM-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tWsio1Wf9U8FyPwOoSbM-66" target="tWsio1Wf9U8FyPwOoSbM-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tWsio1Wf9U8FyPwOoSbM-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tWsio1Wf9U8FyPwOoSbM-66" target="tWsio1Wf9U8FyPwOoSbM-104">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tWsio1Wf9U8FyPwOoSbM-66" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;pre style=&quot;border-color: var(--border-color); font-size: 9pt; font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;onEvent&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -351,14 +354,58 @@
         <mxCell id="tWsio1Wf9U8FyPwOoSbM-86" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;pre style=&quot;border-color: var(--border-color); font-size: 9pt; font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;DataChangeTask&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2080" y="1246" width="150" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="tWsio1Wf9U8FyPwOoSbM-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tWsio1Wf9U8FyPwOoSbM-87" target="tWsio1Wf9U8FyPwOoSbM-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="tWsio1Wf9U8FyPwOoSbM-87" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;pre style=&quot;border-color: var(--border-color); font-size: 9pt; font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;配置变更&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2710" y="1246" width="150" height="40" as="geometry" />
+          <mxGeometry x="3350" y="975" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tWsio1Wf9U8FyPwOoSbM-88" value="ConfigDataChangeEvent" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="2506" y="1210.01" width="149" height="19.99" as="geometry" />
+          <mxGeometry x="3131" y="929.01" width="149" height="19.99" as="geometry" />
         </mxCell>
-        <mxCell id="tWsio1Wf9U8FyPwOoSbM-89" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;pre style=&quot;border-color: var(--border-color); font-size: 9pt; font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;发布事件&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2505" y="1246" width="150" height="40" as="geometry" />
+        <mxCell id="tWsio1Wf9U8FyPwOoSbM-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tWsio1Wf9U8FyPwOoSbM-89" target="tWsio1Wf9U8FyPwOoSbM-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tWsio1Wf9U8FyPwOoSbM-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tWsio1Wf9U8FyPwOoSbM-89" target="tWsio1Wf9U8FyPwOoSbM-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tWsio1Wf9U8FyPwOoSbM-89" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;pre style=&quot;border-color: var(--border-color); font-size: 9pt; font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;监听事件&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2900" y="975" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tWsio1Wf9U8FyPwOoSbM-92" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;pre style=&quot;border-color: var(--border-color); font-size: 9pt; font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;发布事件&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3140" y="975" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tWsio1Wf9U8FyPwOoSbM-95" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;AsyncNotifyService&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2910" y="924.01" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tWsio1Wf9U8FyPwOoSbM-96" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;onEvent&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3060" y="959" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tWsio1Wf9U8FyPwOoSbM-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="tWsio1Wf9U8FyPwOoSbM-97" target="tWsio1Wf9U8FyPwOoSbM-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tWsio1Wf9U8FyPwOoSbM-97" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;pre style=&quot;border-color: var(--border-color); font-size: 9pt; font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;封装创建异步通知任务&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2900" y="1064" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tWsio1Wf9U8FyPwOoSbM-99" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;run()&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2980" y="1109" width="60" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="tWsio1Wf9U8FyPwOoSbM-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tWsio1Wf9U8FyPwOoSbM-100" target="tWsio1Wf9U8FyPwOoSbM-104">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2770" y="1159.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tWsio1Wf9U8FyPwOoSbM-100" value="执行任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2900" y="1150" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tWsio1Wf9U8FyPwOoSbM-102" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;遍历所有节点，按ip封装为&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;NotifySingleTask&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3080" y="1074" width="240" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="tWsio1Wf9U8FyPwOoSbM-103" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;http 调用/v1/cs/communication/dataChange，执行dupm，触发oacalDataChangeEvent事件&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="3085.5" y="1154" width="564.5" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="tWsio1Wf9U8FyPwOoSbM-104" value="dumpService.dump()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2620" y="1150.5" width="150" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

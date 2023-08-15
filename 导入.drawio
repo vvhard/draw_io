@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-15T10:39:28.280Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="eMn5zDzPXMIU6yBaYMi_" version="21.6.7" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2023-08-15T11:02:36.809Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="C1IeNYCxdxmnSTDOyQSF" version="21.6.7" type="github" pages="15">
   <diagram id="TbDEX9xW6UQDXxYtpqDP" name="订单导入">
     <mxGraphModel dx="1481" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2856,6 +2856,12 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-44" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="1410" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-43" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="1410" width="120" height="160" as="geometry" />
+        </mxCell>
         <mxCell id="pm6j1BoLnbY0TYSisYAj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pm6j1BoLnbY0TYSisYAj-1" target="pm6j1BoLnbY0TYSisYAj-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -3149,11 +3155,121 @@
         <mxCell id="ovkyO4EhLCmHkD76rzQj-18" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;pre style=&quot;border-color: var(--border-color); font-size: 9pt; font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;不做任何处理&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1600" y="775" width="90" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ovkyO4EhLCmHkD76rzQj-20" target="ovkyO4EhLCmHkD76rzQj-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ovkyO4EhLCmHkD76rzQj-20" target="ovkyO4EhLCmHkD76rzQj-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ovkyO4EhLCmHkD76rzQj-20" target="ovkyO4EhLCmHkD76rzQj-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ovkyO4EhLCmHkD76rzQj-20" target="ovkyO4EhLCmHkD76rzQj-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ovkyO4EhLCmHkD76rzQj-20" target="ovkyO4EhLCmHkD76rzQj-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ovkyO4EhLCmHkD76rzQj-20" target="ovkyO4EhLCmHkD76rzQj-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ovkyO4EhLCmHkD76rzQj-20" value="根据路由状态处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1865" y="1250" width="130" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ovkyO4EhLCmHkD76rzQj-22" value="根据路由状态处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1370" y="1290" width="130" height="50" as="geometry" />
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-22" value="派件中" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="1500" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ovkyO4EhLCmHkD76rzQj-32" target="ovkyO4EhLCmHkD76rzQj-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-32" value="已揽收" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="1412" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-33" value="退回件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#7EA6E0;" vertex="1" parent="1">
+          <mxGeometry x="2116" y="1423" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-34" value="异常件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="1966" y="1410" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-35" value="运输中" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCE6;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="1450" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-36" value="已签收" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#33FF99;" vertex="1" parent="1">
+          <mxGeometry x="1806" y="1410" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-37" value="作废件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" vertex="1" parent="1">
+          <mxGeometry x="2116" y="1526" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-38" value="已取消" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8CECC;" vertex="1" parent="1">
+          <mxGeometry x="2306" y="1410" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-39" value="转寄件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E1D5E7;" vertex="1" parent="1">
+          <mxGeometry x="2116" y="1473" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ovkyO4EhLCmHkD76rzQj-52" target="ovkyO4EhLCmHkD76rzQj-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-52" value="设置揽收时间" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="1675" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-54" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;pre style=&quot;border-color: var(--border-color); font-size: 9pt; font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;receiveTime = acceptTime&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="1680" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ovkyO4EhLCmHkD76rzQj-55" target="ovkyO4EhLCmHkD76rzQj-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-55" value="更新运单成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="1760" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-56" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;pre style=&quot;border-color: var(--border-color); font-size: 9pt; font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;设置运单最新路由、运单状态、路由处理时间&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2010" y="1265" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="ovkyO4EhLCmHkD76rzQj-60" target="ovkyO4EhLCmHkD76rzQj-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-60" value="状态比较" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="1900" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-62" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;pre style=&quot;border-color: var(--border-color); font-size: 9pt; font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;线程池异步&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="2020" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-64" value="短信发送处理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="2070" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-67" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;pre style=&quot;border-color: var(--border-color); font-size: 9pt; font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;更新后状态为运输总且&lt;/pre&gt;&lt;pre style=&quot;border-color: var(--border-color); font-size: 9pt; font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;更新前的运单状态是否小于当前状态(运输中:2)&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="1860" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-68" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;pre style=&quot;border-color: var(--border-color); font-size: 9pt; font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;KFK_TOPIC_UPDATE_SEND_MESSAGE_TOPIC_PRD&lt;/pre&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="2070" width="286" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-69" value="更新运单发送短信记录" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="2140" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ovkyO4EhLCmHkD76rzQj-43" target="ovkyO4EhLCmHkD76rzQj-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1700" y="1705" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ovkyO4EhLCmHkD76rzQj-74" target="ovkyO4EhLCmHkD76rzQj-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-74" value="更新运单成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="1760" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="ovkyO4EhLCmHkD76rzQj-76" target="ovkyO4EhLCmHkD76rzQj-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-76" value="状态比较" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="1900" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-77" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;pre style=&quot;border-color: var(--border-color); font-size: 9pt; font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;线程池异步&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="2020" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-78" value="短信发送处理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="2070" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkyO4EhLCmHkD76rzQj-79" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;Courier New&amp;quot;; font-size: 9pt;&quot;&gt;&lt;pre style=&quot;border-color: var(--border-color); font-size: 9pt; font-family: &amp;quot;Courier New&amp;quot;;&quot;&gt;更新前的运单状态是否小于当前状态(已揽收:1)&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1950" width="266" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-09-21T03:47:39.326Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="DCXYqjc7smsnNV6D0Nw1" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-21T07:46:04.302Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="7ErFPdLImO47pXLrOdUZ" version="21.7.2" type="github" pages="3">
+  <diagram id="F3R_bZ358Ovh_aAX_95p" name="质检流程">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram name="创建质检指令" id="9LNbSex3hJXbslfU4ChV">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -189,6 +197,170 @@
         </mxCell>
         <mxCell id="KCyv-d4GW0FQY3K_e-6L-77" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="200" y="390" width="20" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="pyCT2BxDM6KZaC1s8hAW" name="质检打标">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="m9GBfulWd5azS1ns_NQo-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="Ml8iRn7jUneEAK7tOL3D-1" target="Ml8iRn7jUneEAK7tOL3D-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ml8iRn7jUneEAK7tOL3D-1" value="VMS消息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="91" y="10" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ml8iRn7jUneEAK7tOL3D-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ml8iRn7jUneEAK7tOL3D-2" target="Ml8iRn7jUneEAK7tOL3D-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ml8iRn7jUneEAK7tOL3D-2" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="91" y="110" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ml8iRn7jUneEAK7tOL3D-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ml8iRn7jUneEAK7tOL3D-3" target="Ml8iRn7jUneEAK7tOL3D-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ml8iRn7jUneEAK7tOL3D-3" value="CREATE类型且送货单号不为空" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="82" y="210" width="108" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Ml8iRn7jUneEAK7tOL3D-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ml8iRn7jUneEAK7tOL3D-7" target="Ml8iRn7jUneEAK7tOL3D-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ml8iRn7jUneEAK7tOL3D-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ml8iRn7jUneEAK7tOL3D-7" target="Ml8iRn7jUneEAK7tOL3D-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m9GBfulWd5azS1ns_NQo-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ml8iRn7jUneEAK7tOL3D-7" target="Ml8iRn7jUneEAK7tOL3D-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ml8iRn7jUneEAK7tOL3D-7" value="查询送货单信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="240" width="106" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ml8iRn7jUneEAK7tOL3D-9" value="履约" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="278" y="140" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ml8iRn7jUneEAK7tOL3D-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ml8iRn7jUneEAK7tOL3D-10" target="Ml8iRn7jUneEAK7tOL3D-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m9GBfulWd5azS1ns_NQo-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ml8iRn7jUneEAK7tOL3D-10" target="m9GBfulWd5azS1ns_NQo-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ml8iRn7jUneEAK7tOL3D-10" value="查询PO信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="240" width="106" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ml8iRn7jUneEAK7tOL3D-13" value="设置部类名称" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="240" width="106" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m9GBfulWd5azS1ns_NQo-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.175;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ml8iRn7jUneEAK7tOL3D-15" target="m9GBfulWd5azS1ns_NQo-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ml8iRn7jUneEAK7tOL3D-15" value="查询打标配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="400" width="106" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m9GBfulWd5azS1ns_NQo-1" value="documentType =&amp;nbsp;VIP_DELIVERY" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="330" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m9GBfulWd5azS1ns_NQo-2" value="根据配置的字段映射关系，读取打标配置表数据库存储的对应字段" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="495" width="166" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="m9GBfulWd5azS1ns_NQo-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m9GBfulWd5azS1ns_NQo-3" target="m9GBfulWd5azS1ns_NQo-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m9GBfulWd5azS1ns_NQo-3" value="配置中心获取打标配置映射关系" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="500" width="106" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m9GBfulWd5azS1ns_NQo-5" value="qms_inspection_mark_conf" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="400" width="166" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m9GBfulWd5azS1ns_NQo-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m9GBfulWd5azS1ns_NQo-6" target="m9GBfulWd5azS1ns_NQo-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m9GBfulWd5azS1ns_NQo-6" value="打标配置分组" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="600" width="106" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m9GBfulWd5azS1ns_NQo-8" value="触发任务编码 triger_task_code" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="600" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m9GBfulWd5azS1ns_NQo-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m9GBfulWd5azS1ns_NQo-9" target="m9GBfulWd5azS1ns_NQo-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m9GBfulWd5azS1ns_NQo-9" value="打标配置映射匹配打标配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="700" width="106" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m9GBfulWd5azS1ns_NQo-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="m9GBfulWd5azS1ns_NQo-10" target="m9GBfulWd5azS1ns_NQo-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="680" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="870" />
+              <mxPoint x="230" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m9GBfulWd5azS1ns_NQo-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="m9GBfulWd5azS1ns_NQo-10" target="m9GBfulWd5azS1ns_NQo-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m9GBfulWd5azS1ns_NQo-10" value="匹配配置为空?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="283" y="830" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m9GBfulWd5azS1ns_NQo-16" value="map中存在 documentType:triger_task_code&amp;nbsp; 格式的key value" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="750" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m9GBfulWd5azS1ns_NQo-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="m9GBfulWd5azS1ns_NQo-19" target="m9GBfulWd5azS1ns_NQo-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m9GBfulWd5azS1ns_NQo-19" value="匹配数据库打标配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="447" y="850" width="106" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m9GBfulWd5azS1ns_NQo-20" value="根据配置中心配置的字段映射，读取打标配置的字段值，有一条打标配置匹配了，则为匹配" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="383" y="810" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m9GBfulWd5azS1ns_NQo-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="m9GBfulWd5azS1ns_NQo-22" target="m9GBfulWd5azS1ns_NQo-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m9GBfulWd5azS1ns_NQo-22" value="保存打标记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="657" y="850" width="106" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m9GBfulWd5azS1ns_NQo-24" value="triger_task_code JIT严格来货质检测试" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="820" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m9GBfulWd5azS1ns_NQo-26" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.0pt;&quot;&gt;qms_inspection_mark&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="860" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m9GBfulWd5azS1ns_NQo-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m9GBfulWd5azS1ns_NQo-27" target="m9GBfulWd5azS1ns_NQo-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m9GBfulWd5azS1ns_NQo-27" value="保存打标明细" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="657.5" y="980" width="106" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m9GBfulWd5azS1ns_NQo-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m9GBfulWd5azS1ns_NQo-29" target="m9GBfulWd5azS1ns_NQo-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m9GBfulWd5azS1ns_NQo-29" value="插入广播打标任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="451.5" y="980" width="106" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m9GBfulWd5azS1ns_NQo-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m9GBfulWd5azS1ns_NQo-31" target="m9GBfulWd5azS1ns_NQo-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m9GBfulWd5azS1ns_NQo-31" value="插入生成指令计划任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="261.5" y="980" width="106" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m9GBfulWd5azS1ns_NQo-33" value="qms_inspection_mark_details" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="985" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m9GBfulWd5azS1ns_NQo-34" value="header_id = mark_id" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="717" y="920" width="135" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m9GBfulWd5azS1ns_NQo-35" value="taskType =&amp;nbsp;BROADCAST_MARK_RESULT_VMS&lt;br&gt;taskInfo = mark_id" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="930" width="284" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m9GBfulWd5azS1ns_NQo-36" value="taskType =&amp;nbsp;INSTRUCT_PLAN_GENERATE&lt;br&gt;taskInfo = mark_id" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="117.5" y="941" width="250" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="m9GBfulWd5azS1ns_NQo-37" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="269.5" y="1134" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m9GBfulWd5azS1ns_NQo-41" value="po" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="468" y="140" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

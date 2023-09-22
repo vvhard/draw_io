@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-22T01:58:05.280Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="722aujM0RejWeiUlh0Im" version="21.7.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-09-22T07:20:35.830Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ovFI6XSCdBBYQOPsqUdy" version="21.7.2" type="github" pages="4">
   <diagram id="F3R_bZ358Ovh_aAX_95p" name="质检流程">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -324,7 +324,7 @@
           <mxGeometry x="800" y="820" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="m9GBfulWd5azS1ns_NQo-26" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.0pt;&quot;&gt;qms_inspection_mark&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="800" y="860" width="130" height="30" as="geometry" />
+          <mxGeometry x="800" y="855" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="m9GBfulWd5azS1ns_NQo-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m9GBfulWd5azS1ns_NQo-27" target="m9GBfulWd5azS1ns_NQo-29">
           <mxGeometry relative="1" as="geometry" />
@@ -370,6 +370,12 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="TBSYTD9pN2UwlZR8H4C7-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TBSYTD9pN2UwlZR8H4C7-2" target="TBSYTD9pN2UwlZR8H4C7-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TBSYTD9pN2UwlZR8H4C7-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;dashed=1;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="65" y="585" width="890" height="105" as="geometry" />
+        </mxCell>
         <mxCell id="LwQqy9x18_tTU6r93Sz_-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LwQqy9x18_tTU6r93Sz_-1" target="LwQqy9x18_tTU6r93Sz_-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -384,11 +390,11 @@
         </mxCell>
         <mxCell id="LwQqy9x18_tTU6r93Sz_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LwQqy9x18_tTU6r93Sz_-5" target="LwQqy9x18_tTU6r93Sz_-17">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="420" y="300" as="targetPoint" />
+            <mxPoint x="510" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LwQqy9x18_tTU6r93Sz_-5" value="qms-service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="370" y="180" width="100" height="40" as="geometry" />
+          <mxGeometry x="460" y="180" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LwQqy9x18_tTU6r93Sz_-7" value="osp" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="210" y="180" width="50" height="20" as="geometry" />
@@ -396,11 +402,17 @@
         <mxCell id="LwQqy9x18_tTU6r93Sz_-10" value="taskType" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="280" y="325" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="TBSYTD9pN2UwlZR8H4C7-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LwQqy9x18_tTU6r93Sz_-14" target="TBSYTD9pN2UwlZR8H4C7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="LwQqy9x18_tTU6r93Sz_-14" value="广播质检打标" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="480" width="100" height="40" as="geometry" />
+          <mxGeometry x="70" y="480" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TBSYTD9pN2UwlZR8H4C7-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LwQqy9x18_tTU6r93Sz_-16" target="TBSYTD9pN2UwlZR8H4C7-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LwQqy9x18_tTU6r93Sz_-16" value="质检指令下发" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="480" width="100" height="40" as="geometry" />
+          <mxGeometry x="840" y="480" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LwQqy9x18_tTU6r93Sz_-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LwQqy9x18_tTU6r93Sz_-17" target="LwQqy9x18_tTU6r93Sz_-18">
           <mxGeometry relative="1" as="geometry" />
@@ -412,10 +424,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LwQqy9x18_tTU6r93Sz_-17" value="HandleActionTask" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="320" width="100" height="40" as="geometry" />
+          <mxGeometry x="460" y="320" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TBSYTD9pN2UwlZR8H4C7-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LwQqy9x18_tTU6r93Sz_-18" target="TBSYTD9pN2UwlZR8H4C7-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LwQqy9x18_tTU6r93Sz_-18" value="生成指令" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="480" width="100" height="40" as="geometry" />
+          <mxGeometry x="460" y="480" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TBSYTD9pN2UwlZR8H4C7-1" value="查询任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="617.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TBSYTD9pN2UwlZR8H4C7-6" value="任务为空?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="800" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TBSYTD9pN2UwlZR8H4C7-10" value="广播质检打标" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="960" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

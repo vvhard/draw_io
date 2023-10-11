@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T09:15:53.815Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="gRLNtls5Y979KCtfoxgi" version="22.0.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-11T09:16:10.789Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Q2OZtKGJU6Ci3GW1P9rk" version="22.0.4" type="github" pages="2">
   <diagram name="理货单据明细决策" id="SSeMMiir3edaBHUvej0P">
     <mxGraphModel dx="1509" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -364,6 +364,9 @@
         <mxCell id="QteMDIXKet4iBMp_x6c--144" value="tally_item" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="899" y="2375" width="81" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="QteMDIXKet4iBMp_x6c--151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QteMDIXKet4iBMp_x6c--145" target="QteMDIXKet4iBMp_x6c--150">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="QteMDIXKet4iBMp_x6c--145" value="更新理货状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="557" y="2450" width="110" height="40" as="geometry" />
         </mxCell>
@@ -377,6 +380,12 @@
         </mxCell>
         <mxCell id="QteMDIXKet4iBMp_x6c--148" value="tally" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="904.5" y="2455" width="55.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QteMDIXKet4iBMp_x6c--149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.529;entryY=0.176;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QteMDIXKet4iBMp_x6c--139" target="QteMDIXKet4iBMp_x6c--145">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QteMDIXKet4iBMp_x6c--150" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="557" y="2540" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

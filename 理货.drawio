@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-12T07:41:39.295Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="9J9iYxROpz5Zfg-2G-5S" version="22.0.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-10-12T07:50:23.903Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="nDtOYx9Y3IMyu4BSc-cN" version="22.0.4" type="github" pages="4">
   <diagram name="理货单据明细决策" id="SSeMMiir3edaBHUvej0P">
     <mxGraphModel dx="1509" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1510,6 +1510,11 @@
         <mxCell id="NupIsQ8nE3TxppBEkOOA-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NupIsQ8nE3TxppBEkOOA-84" target="NupIsQ8nE3TxppBEkOOA-88">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="NupIsQ8nE3TxppBEkOOA-96" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NupIsQ8nE3TxppBEkOOA-89">
+          <mxGeometry x="-0.65" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="NupIsQ8nE3TxppBEkOOA-84" value="创建成功?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="1940" width="80" height="80" as="geometry" />
         </mxCell>
@@ -1533,6 +1538,9 @@
         </mxCell>
         <mxCell id="NupIsQ8nE3TxppBEkOOA-95" value="process_status = 5 （完成）&lt;br&gt;po_no_new" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="575" y="2040" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NupIsQ8nE3TxppBEkOOA-97" value="根据配置确定新po同步还是异步绑定退供地址和推送价格系统" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1960" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

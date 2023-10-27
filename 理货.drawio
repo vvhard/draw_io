@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T10:13:37.136Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="J8bT7IJoTdHSk8M65-Vo" version="22.0.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-10-27T10:20:23.475Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="GwTmhZsyNqlV3qurFs6_" version="22.0.8" type="github" pages="5">
   <diagram name="理货单据明细决策" id="SSeMMiir3edaBHUvej0P">
     <mxGraphModel dx="1509" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1773,82 +1773,84 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ILVZR2t563nbQxZkdhK--23" value="oa服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="94" width="110" height="40" as="geometry" />
+          <mxGeometry x="1280" y="70" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ILVZR2t563nbQxZkdhK--28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ILVZR2t563nbQxZkdhK--24" target="ILVZR2t563nbQxZkdhK--27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ILVZR2t563nbQxZkdhK--24" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1027.5" y="184" width="95" height="40" as="geometry" />
+          <mxGeometry x="1287.5" y="156" width="95" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="ILVZR2t563nbQxZkdhK--30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ILVZR2t563nbQxZkdhK--27" target="ILVZR2t563nbQxZkdhK--29">
+        <mxCell id="ILVZR2t563nbQxZkdhK--105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.588;exitY=0.981;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ILVZR2t563nbQxZkdhK--27" target="ILVZR2t563nbQxZkdhK--97">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ILVZR2t563nbQxZkdhK--27" value="审批状态回抛" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1029.5" y="264" width="90" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ILVZR2t563nbQxZkdhK--34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ILVZR2t563nbQxZkdhK--29" target="ILVZR2t563nbQxZkdhK--32">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ILVZR2t563nbQxZkdhK--58" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ILVZR2t563nbQxZkdhK--34">
-          <mxGeometry x="-0.1926" y="2" relative="1" as="geometry">
-            <mxPoint y="-1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ILVZR2t563nbQxZkdhK--49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ILVZR2t563nbQxZkdhK--29" target="ILVZR2t563nbQxZkdhK--44">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ILVZR2t563nbQxZkdhK--57" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ILVZR2t563nbQxZkdhK--49">
-          <mxGeometry x="-0.8383" y="4" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ILVZR2t563nbQxZkdhK--29" value="驳回状态?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1029.5" y="374" width="89" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="ILVZR2t563nbQxZkdhK--32" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="1027.5" y="514" width="95" height="40" as="geometry" />
+          <mxGeometry x="1289.5" y="250" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ILVZR2t563nbQxZkdhK--35" value="记录驳回类型任务, 同一个单 同一个人 同一种类型只会记录一条待发送的任务" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="840" y="340" width="170" height="70" as="geometry" />
+          <mxGeometry x="1370" y="290" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ILVZR2t563nbQxZkdhK--39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ILVZR2t563nbQxZkdhK--36" target="ILVZR2t563nbQxZkdhK--38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ILVZR2t563nbQxZkdhK--36" value="WMS服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="610" y="100" width="110" height="40" as="geometry" />
+          <mxGeometry x="1020" y="70" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ILVZR2t563nbQxZkdhK--37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ILVZR2t563nbQxZkdhK--38" target="ILVZR2t563nbQxZkdhK--40">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="672.5" y="280" as="targetPoint" />
+            <mxPoint x="1082.5" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ILVZR2t563nbQxZkdhK--38" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="617.5" y="190" width="95" height="40" as="geometry" />
+          <mxGeometry x="1027.5" y="160" width="95" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ILVZR2t563nbQxZkdhK--40" value="理货上抛" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="619" y="280" width="90" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ILVZR2t563nbQxZkdhK--41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ILVZR2t563nbQxZkdhK--40" target="ILVZR2t563nbQxZkdhK--44">
+        <mxCell id="ILVZR2t563nbQxZkdhK--102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ILVZR2t563nbQxZkdhK--40" target="ILVZR2t563nbQxZkdhK--96">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ILVZR2t563nbQxZkdhK--43" value="记录未决策类型任务" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="670" y="340" width="130" height="20" as="geometry" />
+        <mxCell id="ILVZR2t563nbQxZkdhK--40" value="理货上抛" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1029" y="250" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ILVZR2t563nbQxZkdhK--44" value="计算超时时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="400" width="90" height="40" as="geometry" />
+          <mxGeometry x="620" y="340" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ILVZR2t563nbQxZkdhK--45" value="CfgCenter" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="458" y="180" width="120" height="80" as="geometry" />
+          <mxGeometry x="600" y="84" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ILVZR2t563nbQxZkdhK--46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ILVZR2t563nbQxZkdhK--44" target="ILVZR2t563nbQxZkdhK--45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ILVZR2t563nbQxZkdhK--48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ILVZR2t563nbQxZkdhK--44" target="uwnKxMrhjxe6YQVPrlCC-18">
+        <mxCell id="ILVZR2t563nbQxZkdhK--50" value="TALLY_DECISION_TIMEOUT" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="486" y="195" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ILVZR2t563nbQxZkdhK--84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ILVZR2t563nbQxZkdhK--44" target="uwnKxMrhjxe6YQVPrlCC-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ILVZR2t563nbQxZkdhK--50" value="TALLY_DECISION_TIMEOUT" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="350" y="285" width="170" height="30" as="geometry" />
+        <mxCell id="ILVZR2t563nbQxZkdhK--100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ILVZR2t563nbQxZkdhK--96" target="ILVZR2t563nbQxZkdhK--44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ILVZR2t563nbQxZkdhK--96" value="创建理货单事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="250" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ILVZR2t563nbQxZkdhK--99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ILVZR2t563nbQxZkdhK--97" target="ILVZR2t563nbQxZkdhK--44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ILVZR2t563nbQxZkdhK--97" value="理货单审批驳回事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="340" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ILVZR2t563nbQxZkdhK--101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ILVZR2t563nbQxZkdhK--98" target="ILVZR2t563nbQxZkdhK--44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ILVZR2t563nbQxZkdhK--98" value="决策完成事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="410" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ILVZR2t563nbQxZkdhK--106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="ILVZR2t563nbQxZkdhK--98">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1150" y="430" as="sourcePoint" />
+            <mxPoint x="947.5" y="516" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1379" y="430" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

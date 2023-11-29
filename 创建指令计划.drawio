@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-29T09:10:49.874Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="bLl9yXv3h1KTYnTht05V" version="22.1.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-11-29T09:10:57.942Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="d5bMGx-mZvxNsEOpo4Vk" version="22.1.4" type="github" pages="6">
   <diagram id="F3R_bZ358Ovh_aAX_95p" name="质检流程">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -842,7 +842,7 @@
           <mxGeometry x="1149.01" y="657.8800000000001" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PAQ5Mp7xtoPldEPbo9Mo-10" value="按质检指令id，形成map，将数据分组聚合(报告内容检查项等按层级关系嵌套聚合，最终形成一个指令数据)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1465" y="212" width="227" height="68" as="geometry" />
+          <mxGeometry x="1468" y="380" width="227" height="68" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

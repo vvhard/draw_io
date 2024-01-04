@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-04T12:44:45.259Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="GEJxSljlpHfFkpq5bTQz" version="22.1.16" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-01-04T12:57:37.553Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="auiI1QbTej4g6tOSCVWQ" version="22.1.16" type="github" pages="8">
   <diagram id="F3R_bZ358Ovh_aAX_95p" name="质检流程">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -57,8 +57,14 @@
         <mxCell id="6McIL4HFEQ1lvty4y9AC-26" value="根据报告id、指令单号查询" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6McIL4HFEQ1lvty4y9AC-3">
           <mxGeometry x="174" y="320" width="106" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="6McIL4HFEQ1lvty4y9AC-32" value="接收数据并处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6McIL4HFEQ1lvty4y9AC-3">
+          <mxGeometry x="50" y="600" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6McIL4HFEQ1lvty4y9AC-46" value="报告作业状态&lt;br&gt;回复质检结果" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6McIL4HFEQ1lvty4y9AC-3">
+          <mxGeometry x="175" y="590" width="76" height="20" as="geometry" />
+        </mxCell>
         <mxCell id="6McIL4HFEQ1lvty4y9AC-4" value="云WMS" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="520" y="80" width="200" height="900" as="geometry" />
+          <mxGeometry x="520" y="80" width="300" height="890" as="geometry" />
         </mxCell>
         <mxCell id="6McIL4HFEQ1lvty4y9AC-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="6McIL4HFEQ1lvty4y9AC-4" source="6McIL4HFEQ1lvty4y9AC-14" target="6McIL4HFEQ1lvty4y9AC-19">
           <mxGeometry relative="1" as="geometry" />
@@ -72,6 +78,15 @@
         <mxCell id="6McIL4HFEQ1lvty4y9AC-29" value="接收检查项数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6McIL4HFEQ1lvty4y9AC-4">
           <mxGeometry x="50" y="460" width="100" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="6McIL4HFEQ1lvty4y9AC-31" value="状态上报" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="6McIL4HFEQ1lvty4y9AC-4">
+          <mxGeometry x="50" y="600" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6McIL4HFEQ1lvty4y9AC-42" value="下发WMS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6McIL4HFEQ1lvty4y9AC-4">
+          <mxGeometry x="160" y="454" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6McIL4HFEQ1lvty4y9AC-51" value="状态上报" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6McIL4HFEQ1lvty4y9AC-4">
+          <mxGeometry x="170" y="590" width="60" height="20" as="geometry" />
+        </mxCell>
         <mxCell id="6McIL4HFEQ1lvty4y9AC-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="6McIL4HFEQ1lvty4y9AC-7" target="6McIL4HFEQ1lvty4y9AC-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -82,6 +97,27 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6McIL4HFEQ1lvty4y9AC-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6McIL4HFEQ1lvty4y9AC-24" target="6McIL4HFEQ1lvty4y9AC-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6McIL4HFEQ1lvty4y9AC-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6McIL4HFEQ1lvty4y9AC-31" target="6McIL4HFEQ1lvty4y9AC-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6McIL4HFEQ1lvty4y9AC-34" value="WMS" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="820" y="80" width="200" height="900" as="geometry" />
+        </mxCell>
+        <mxCell id="6McIL4HFEQ1lvty4y9AC-40" value="仓库作业判断" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="6McIL4HFEQ1lvty4y9AC-34">
+          <mxGeometry x="45" y="460" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6McIL4HFEQ1lvty4y9AC-44" value="仓库作业" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="6McIL4HFEQ1lvty4y9AC-34">
+          <mxGeometry x="45" y="600" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6McIL4HFEQ1lvty4y9AC-52" value="作业开始&lt;br&gt;质检开始&lt;br&gt;质检完成(关单)&lt;br&gt;质检取消" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="6McIL4HFEQ1lvty4y9AC-34">
+          <mxGeometry x="70" y="540" width="103" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="6McIL4HFEQ1lvty4y9AC-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6McIL4HFEQ1lvty4y9AC-29" target="6McIL4HFEQ1lvty4y9AC-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6McIL4HFEQ1lvty4y9AC-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6McIL4HFEQ1lvty4y9AC-44" target="6McIL4HFEQ1lvty4y9AC-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>

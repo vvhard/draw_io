@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-05T04:10:32.827Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="bNrIQz2cC59caHm53jHv" version="22.1.16" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2024-01-05T05:46:14.712Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="POrOdyczREX2BX3uZZUO" version="22.1.16" type="github" pages="10">
   <diagram id="F3R_bZ358Ovh_aAX_95p" name="质检流程">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1395,8 +1395,82 @@
         <mxCell id="gHfksTII6MSEK8SGRpMt-45" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1080" y="480" width="90" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="gHfksTII6MSEK8SGRpMt-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gHfksTII6MSEK8SGRpMt-49" target="gHfksTII6MSEK8SGRpMt-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="gHfksTII6MSEK8SGRpMt-49" value="报告汇总处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="905" y="580" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gHfksTII6MSEK8SGRpMt-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gHfksTII6MSEK8SGRpMt-51" target="gHfksTII6MSEK8SGRpMt-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gHfksTII6MSEK8SGRpMt-51" value="查询报告内容" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="905" y="660" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gHfksTII6MSEK8SGRpMt-53" value="遍历报告内容，累加计算质检数量、不合格数量" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="745" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gHfksTII6MSEK8SGRpMt-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gHfksTII6MSEK8SGRpMt-54" target="gHfksTII6MSEK8SGRpMt-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gHfksTII6MSEK8SGRpMt-54" value="计算整体质检结论" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="905" y="760" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gHfksTII6MSEK8SGRpMt-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gHfksTII6MSEK8SGRpMt-56" target="gHfksTII6MSEK8SGRpMt-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gHfksTII6MSEK8SGRpMt-56" value="更新指令单据状态为待提交" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="905" y="850" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gHfksTII6MSEK8SGRpMt-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gHfksTII6MSEK8SGRpMt-58" target="gHfksTII6MSEK8SGRpMt-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gHfksTII6MSEK8SGRpMt-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gHfksTII6MSEK8SGRpMt-58" target="gHfksTII6MSEK8SGRpMt-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gHfksTII6MSEK8SGRpMt-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="gHfksTII6MSEK8SGRpMt-58" target="gHfksTII6MSEK8SGRpMt-68">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="980" />
+              <mxPoint x="830" y="1189" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gHfksTII6MSEK8SGRpMt-58" value="报告类型" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="940" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gHfksTII6MSEK8SGRpMt-60" value="根据报告模板生成报告" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="900" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gHfksTII6MSEK8SGRpMt-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="gHfksTII6MSEK8SGRpMt-61" target="gHfksTII6MSEK8SGRpMt-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gHfksTII6MSEK8SGRpMt-61" value="生成整体报告" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="960" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gHfksTII6MSEK8SGRpMt-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gHfksTII6MSEK8SGRpMt-63" target="gHfksTII6MSEK8SGRpMt-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gHfksTII6MSEK8SGRpMt-63" value="生成汇总报告" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="905" y="1070" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gHfksTII6MSEK8SGRpMt-65" value="整体报告" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="995" y="950" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gHfksTII6MSEK8SGRpMt-66" value="汇总报告" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1030" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gHfksTII6MSEK8SGRpMt-68" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="905" y="1169" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gHfksTII6MSEK8SGRpMt-72" value="其他" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="840" y="950" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gHfksTII6MSEK8SGRpMt-74" value="按报告维度分组汇总" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1080" width="109" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gHfksTII6MSEK8SGRpMt-75" value="基于上面的计算结果" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1191" y="980" width="109" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

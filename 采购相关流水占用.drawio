@@ -1,9 +1,62 @@
-<mxfile host="app.diagrams.net" modified="2024-01-22T05:34:17.643Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="22.1.18" etag="owSea97bbmWPQ_HgnY04" type="github">
-  <diagram name="第 1 页" id="nrf-OWKnsDAIsAzLqT8H">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2024-01-30T02:09:06.012Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="GLdh8_QTe-V_0Qd494tf" version="22.1.18" type="github" pages="2">
+  <diagram name="流程" id="nrf-OWKnsDAIsAzLqT8H">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="DLHXNcrvGtIe9l-NPJOr" name="数据库表关系">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nYjrnobAe8djWltnZfLU-1" value="应用配置表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nYjrnobAe8djWltnZfLU-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nYjrnobAe8djWltnZfLU-2" target="nYjrnobAe8djWltnZfLU-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nYjrnobAe8djWltnZfLU-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nYjrnobAe8djWltnZfLU-2" target="nYjrnobAe8djWltnZfLU-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nYjrnobAe8djWltnZfLU-2" value="流水表属性配置表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nYjrnobAe8djWltnZfLU-5" value="appId" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="150" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nYjrnobAe8djWltnZfLU-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nYjrnobAe8djWltnZfLU-6" target="nYjrnobAe8djWltnZfLU-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nYjrnobAe8djWltnZfLU-6" value="流水占用维度配置表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nYjrnobAe8djWltnZfLU-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nYjrnobAe8djWltnZfLU-7" target="nYjrnobAe8djWltnZfLU-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nYjrnobAe8djWltnZfLU-7" value="现有量主维度配置表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nYjrnobAe8djWltnZfLU-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nYjrnobAe8djWltnZfLU-8" target="nYjrnobAe8djWltnZfLU-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nYjrnobAe8djWltnZfLU-8" value="流水占用业务表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nYjrnobAe8djWltnZfLU-12" value="剩余量主维度表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="400" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nYjrnobAe8djWltnZfLU-13" value="流水占用表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nYjrnobAe8djWltnZfLU-15" value="业务数据配置表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="605" y="210" width="95" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nYjrnobAe8djWltnZfLU-16" value="流水表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="210" width="50" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

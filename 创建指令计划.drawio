@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-07T07:34:56.754Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="D60Ban1aEMf9qdauMs2V" version="24.3.1" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2024-05-08T02:00:18.521Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="_IosG0YBT-ccivWa_4ZM" version="24.3.1" type="github" pages="13">
   <diagram id="F3R_bZ358Ovh_aAX_95p" name="质检流程">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1855,7 +1855,7 @@
           <mxGeometry x="748" y="908.75" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aW7Pz9NrKb0dsN0z-vM8-33" value="更新&lt;span style=&quot;color: rgb(8, 8, 8); text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;commodity_identification_turing_interface&lt;/span&gt;同步状态&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;更新&lt;/span&gt;&lt;span style=&quot;color: rgb(8, 8, 8); text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;commodity_identification_item_result图灵鉴定结果&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9pt;&quot;&gt;commodity_identification_task&lt;/span&gt;&lt;span style=&quot;color: rgb(8, 8, 8); text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;插入推送图灵鉴定结果到WMS任务，type = 3&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;更新po、barcode对应的明细，判断是否鉴定明细的数量跟鉴定结果的数量是否全部鉴定完成，非待鉴定的跳过&lt;/span&gt;&lt;span style=&quot;color: rgb(8, 8, 8); text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="860" y="880" width="430" height="97.5" as="geometry" />
+          <mxGeometry x="863" y="891" width="430" height="80" as="geometry" />
         </mxCell>
         <mxCell id="aW7Pz9NrKb0dsN0z-vM8-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aW7Pz9NrKb0dsN0z-vM8-35" target="aW7Pz9NrKb0dsN0z-vM8-40">
           <mxGeometry relative="1" as="geometry" />

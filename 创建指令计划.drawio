@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-21T09:20:05.305Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Na2rWGywhw-6RUjxBJCT" version="24.4.4" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2024-05-21T09:31:31.885Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Xr1DSuMOKidVT5LOKL3h" version="24.4.4" type="github" pages="14">
   <diagram id="F3R_bZ358Ovh_aAX_95p" name="质检流程">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1637,9 +1637,6 @@
         <mxCell id="hWp7uELCRO376_KgP_TN-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hWp7uELCRO376_KgP_TN-1" target="hWp7uELCRO376_KgP_TN-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hWp7uELCRO376_KgP_TN-1" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="232.5" y="-7.5" width="40" height="125" as="geometry" />
-        </mxCell>
         <mxCell id="hWp7uELCRO376_KgP_TN-2" value="queue.vis.vendorkpi.poservice.unidentidied.po" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="10" width="260" height="30" as="geometry" />
         </mxCell>
@@ -1679,6 +1676,9 @@
         <mxCell id="hWp7uELCRO376_KgP_TN-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hWp7uELCRO376_KgP_TN-14" target="hWp7uELCRO376_KgP_TN-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="hWp7uELCRO376_KgP_TN-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hWp7uELCRO376_KgP_TN-14" target="hWp7uELCRO376_KgP_TN-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hWp7uELCRO376_KgP_TN-14" value="查询po明细数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="203" y="420" width="100" height="40" as="geometry" />
         </mxCell>
@@ -1690,6 +1690,27 @@
         </mxCell>
         <mxCell id="hWp7uELCRO376_KgP_TN-20" value="queryPoDetail&lt;div&gt;queryPoDetailCount&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="434" y="380" width="126" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hWp7uELCRO376_KgP_TN-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hWp7uELCRO376_KgP_TN-21" target="hWp7uELCRO376_KgP_TN-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hWp7uELCRO376_KgP_TN-21" value="po鉴定记录存在?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="209" y="520" width="87" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hWp7uELCRO376_KgP_TN-24" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="190" y="35" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hWp7uELCRO376_KgP_TN-1" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="hWp7uELCRO376_KgP_TN-24">
+          <mxGeometry x="42.5" y="-42.5" width="40" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="hWp7uELCRO376_KgP_TN-23" value="VMS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="hWp7uELCRO376_KgP_TN-24">
+          <mxGeometry x="32.5" y="10" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hWp7uELCRO376_KgP_TN-25" value="过滤需要鉴定的明细" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="202.5" y="660" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hWp7uELCRO376_KgP_TN-27" value="正品鉴定 identificationType = 1&amp;nbsp;&lt;div&gt;&amp;nbsp;或&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;图灵鉴定identificationType = 2&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="600" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

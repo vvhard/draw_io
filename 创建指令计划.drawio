@@ -1,13 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2024-05-22T04:25:55.196Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="5O3z3yZUiK0nuvRCjIvz" version="24.4.4" type="github" pages="17">
-  <diagram id="F3R_bZ358Ovh_aAX_95p" name="质检流程">
-    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="4DOxR37FHT-UiQUCg8PL" name="严格质检流程">
+<mxfile host="app.diagrams.net" modified="2024-05-22T04:27:46.472Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="gT1nroe2110HIise8zu3" version="24.4.4" type="github" pages="14">
+  <diagram id="4DOxR37FHT-UiQUCg8PL" name="QMS-严格质检流程">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -180,7 +172,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="创建质检指令" id="9LNbSex3hJXbslfU4ChV">
+  <diagram name="QMS-创建质检指令" id="9LNbSex3hJXbslfU4ChV">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -374,7 +366,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="pyCT2BxDM6KZaC1s8hAW" name="质检打标">
+  <diagram id="pyCT2BxDM6KZaC1s8hAW" name="QMS-质检打标">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -552,86 +544,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="Zv3YHtTiaasAQJSLmn00" name="通用任务处理">
-    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="TBSYTD9pN2UwlZR8H4C7-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="TBSYTD9pN2UwlZR8H4C7-2" target="TBSYTD9pN2UwlZR8H4C7-6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="TBSYTD9pN2UwlZR8H4C7-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;dashed=1;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="65" y="585" width="890" height="105" as="geometry" />
-        </mxCell>
-        <mxCell id="LwQqy9x18_tTU6r93Sz_-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="LwQqy9x18_tTU6r93Sz_-1" target="LwQqy9x18_tTU6r93Sz_-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="LwQqy9x18_tTU6r93Sz_-1" value="Saturn" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
-          <mxGeometry x="40" y="40" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="LwQqy9x18_tTU6r93Sz_-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LwQqy9x18_tTU6r93Sz_-2" target="LwQqy9x18_tTU6r93Sz_-5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="LwQqy9x18_tTU6r93Sz_-2" value="qms-job" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="40" y="180" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="LwQqy9x18_tTU6r93Sz_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="LwQqy9x18_tTU6r93Sz_-5" target="LwQqy9x18_tTU6r93Sz_-17" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="510" y="300" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LwQqy9x18_tTU6r93Sz_-5" value="qms-service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="460" y="180" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="LwQqy9x18_tTU6r93Sz_-7" value="osp" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="210" y="180" width="50" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="LwQqy9x18_tTU6r93Sz_-10" value="taskType" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="280" y="325" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="TBSYTD9pN2UwlZR8H4C7-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="LwQqy9x18_tTU6r93Sz_-14" target="TBSYTD9pN2UwlZR8H4C7-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="LwQqy9x18_tTU6r93Sz_-14" value="广播质检打标" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="70" y="480" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="TBSYTD9pN2UwlZR8H4C7-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="LwQqy9x18_tTU6r93Sz_-16" target="TBSYTD9pN2UwlZR8H4C7-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="LwQqy9x18_tTU6r93Sz_-16" value="质检指令下发" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="840" y="480" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="LwQqy9x18_tTU6r93Sz_-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LwQqy9x18_tTU6r93Sz_-17" target="LwQqy9x18_tTU6r93Sz_-18" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="LwQqy9x18_tTU6r93Sz_-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.61;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="LwQqy9x18_tTU6r93Sz_-17" target="LwQqy9x18_tTU6r93Sz_-14" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="LwQqy9x18_tTU6r93Sz_-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="LwQqy9x18_tTU6r93Sz_-17" target="LwQqy9x18_tTU6r93Sz_-16" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="LwQqy9x18_tTU6r93Sz_-17" value="HandleActionTask" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="460" y="320" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="TBSYTD9pN2UwlZR8H4C7-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LwQqy9x18_tTU6r93Sz_-18" target="TBSYTD9pN2UwlZR8H4C7-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="LwQqy9x18_tTU6r93Sz_-18" value="生成指令" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="460" y="480" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="TBSYTD9pN2UwlZR8H4C7-1" value="查询任务" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="617.5" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="TBSYTD9pN2UwlZR8H4C7-6" value="任务为空?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="800" width="120" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="TBSYTD9pN2UwlZR8H4C7-10" value="广播质检打标" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="80" y="960" width="100" height="40" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="R9Wh__KRGtdxz056hRln" name="指令报告导出">
+  <diagram id="R9Wh__KRGtdxz056hRln" name="QMS-指令报告导出">
     <mxGraphModel dx="1434" dy="764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -1059,15 +972,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="wNBRa_L3BmrFo_hnmRhX" name="数据库表关系">
-    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="R8HRvCAZTmiOchH5nLbQ" name="第 7 页">
+  <diagram id="R8HRvCAZTmiOchH5nLbQ" name="QMS-处理措施查询">
     <mxGraphModel dx="1434" dy="764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />

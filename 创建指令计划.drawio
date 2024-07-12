@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-12T07:10:29.319Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="0OIjJxdNwjROETsvOXyz" version="24.4.4" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2024-07-12T07:18:45.169Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="uah5EqbK8JhbSWMfLd46" version="24.4.4" type="github" pages="15">
   <diagram id="4DOxR37FHT-UiQUCg8PL" name="QMS-严格质检流程">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1867,6 +1867,15 @@
         <mxCell id="udUwzw_9GgM6swIYJug5-52" value="海关报告信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="-ot2izajz5mMJN8YySeB-8">
           <mxGeometry x="50" y="730" width="110" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="udUwzw_9GgM6swIYJug5-58" value="生成鉴定数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-ot2izajz5mMJN8YySeB-8">
+          <mxGeometry x="50" y="101" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="udUwzw_9GgM6swIYJug5-60" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Fira Sans, Droid Sans, Helvetica Neue, sans-serif&quot; color=&quot;#172b4d&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;此时获取到鉴定结果&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-ot2izajz5mMJN8YySeB-8">
+          <mxGeometry x="32.5" y="290" width="145" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="udUwzw_9GgM6swIYJug5-67" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;推送生成海关鉴定报告请求&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-ot2izajz5mMJN8YySeB-8">
+          <mxGeometry x="22.5" y="470" width="185" height="20" as="geometry" />
+        </mxCell>
         <mxCell id="-ot2izajz5mMJN8YySeB-28" value="PDC" style="swimlane;strokeColor=#808080;" vertex="1" parent="1">
           <mxGeometry x="680" y="60" width="230" height="820" as="geometry" />
         </mxCell>
@@ -1878,6 +1887,12 @@
         </mxCell>
         <mxCell id="udUwzw_9GgM6swIYJug5-54" value="查询报告" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-ot2izajz5mMJN8YySeB-28">
           <mxGeometry x="50" y="720" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="udUwzw_9GgM6swIYJug5-59" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(23, 43, 77); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px;&quot;&gt;brandName 品牌名&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;specifications&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255); color: rgb(23, 43, 77);&quot;&gt;规格型号&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255); color: rgb(23, 43, 77);&quot;&gt;category&amp;nbsp; 品类&lt;/span&gt;&lt;span style=&quot;color: rgb(23, 43, 77); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-ot2izajz5mMJN8YySeB-28">
+          <mxGeometry x="15" y="140" width="145" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="udUwzw_9GgM6swIYJug5-70" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;po + barcode +&amp;nbsp; 鉴定码&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="-ot2izajz5mMJN8YySeB-28">
+          <mxGeometry x="30" y="610" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="-ot2izajz5mMJN8YySeB-44" value="LBS" style="swimlane;strokeColor=#808080;" vertex="1" parent="1">
           <mxGeometry x="910" y="60" width="200" height="820" as="geometry" />
@@ -1945,6 +1960,9 @@
         </mxCell>
         <mxCell id="udUwzw_9GgM6swIYJug5-34" value="异步" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="udUwzw_9GgM6swIYJug5-1">
           <mxGeometry x="120" y="490" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="udUwzw_9GgM6swIYJug5-68" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Oxygen, Ubuntu, &amp;quot;Fira Sans&amp;quot;, &amp;quot;Droid Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;推送海关鉴定报告&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="udUwzw_9GgM6swIYJug5-1">
+          <mxGeometry x="38.75" y="610" width="142.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="-ot2izajz5mMJN8YySeB-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="udUwzw_9GgM6swIYJug5-21" target="-ot2izajz5mMJN8YySeB-69">
           <mxGeometry relative="1" as="geometry">

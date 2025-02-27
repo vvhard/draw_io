@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-12T07:57:29.856Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ih2n8uB-TjVbVGmt-OtA" version="24.4.4" type="github" pages="15">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.11" pages="16">
   <diagram id="4DOxR37FHT-UiQUCg8PL" name="QMS-严格质检流程">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1546,8 +1546,22 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="1ZgRws_5xKyVx_Ita9tM" name="正品鉴定-图灵鉴定结果处理" />
-  <diagram id="4GVqPE8HbUMce6P3gDC4" name="正品鉴定生单" />
+  <diagram id="1ZgRws_5xKyVx_Ita9tM" name="正品鉴定-图灵鉴定结果处理">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="4GVqPE8HbUMce6P3gDC4" name="正品鉴定生单">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="CmIfrI9KCkk3FlIXfSXT" name="正品鉴定-图灵鉴定鉴定推送WMS">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1680,7 +1694,14 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="fS0DDpgCzRkEv8m3477M" name="正品鉴定-WMS回抛鉴定码" />
+  <diagram id="fS0DDpgCzRkEv8m3477M" name="正品鉴定-WMS回抛鉴定码">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="jCWcJibysH3cObbuBsTr" name="正品鉴定-商品数据推送图灵">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1990,6 +2011,29 @@
             <mxPoint x="360" y="179" as="sourcePoint" />
             <mxPoint x="490" y="179" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="NiGuo3L-wMOyV4gsrh0h" name="任务驱动+配置化">
+    <mxGraphModel dx="1464" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fpaFk-xJ51nt93Gqc33G-2" value="新流程接入" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fpaFk-xJ51nt93Gqc33G-3" value="人工导入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fpaFk-xJ51nt93Gqc33G-4" value="API接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fpaFk-xJ51nt93Gqc33G-5" value="VMS消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="413.5" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fpaFk-xJ51nt93Gqc33G-6" value="数坊出仓" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="160" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

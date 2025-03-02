@@ -2323,6 +2323,35 @@
         <mxCell id="HnLVNkCW8RxM4l8HTrbK-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;……&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;container=0;fontStyle=1" vertex="1" parent="HnLVNkCW8RxM4l8HTrbK-23">
           <mxGeometry x="10" y="132" width="93" height="25" as="geometry" />
         </mxCell>
+        <mxCell id="HnLVNkCW8RxM4l8HTrbK-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" source="HnLVNkCW8RxM4l8HTrbK-40" target="HnLVNkCW8RxM4l8HTrbK-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="427" y="575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HnLVNkCW8RxM4l8HTrbK-40" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Pallas&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="347" y="460" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HnLVNkCW8RxM4l8HTrbK-41" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;数据聚合&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="347" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HnLVNkCW8RxM4l8HTrbK-58" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;数据库&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="185" y="464" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HnLVNkCW8RxM4l8HTrbK-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HnLVNkCW8RxM4l8HTrbK-59" target="HnLVNkCW8RxM4l8HTrbK-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HnLVNkCW8RxM4l8HTrbK-59" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;数据保存&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="595" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HnLVNkCW8RxM4l8HTrbK-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.16;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="HnLVNkCW8RxM4l8HTrbK-58" target="HnLVNkCW8RxM4l8HTrbK-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HnLVNkCW8RxM4l8HTrbK-62" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;数据同步&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="464" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HnLVNkCW8RxM4l8HTrbK-63" value="&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;b&gt;字段1&amp;nbsp; 值1&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;b&gt;字段2&amp;nbsp; 值2&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;b&gt;……&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="494" width="110" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

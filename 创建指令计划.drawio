@@ -2674,7 +2674,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pJ8_5pMY_U689O4ErKl3-49" value="saturn2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="714" y="779.5" width="120" height="40" as="geometry" />
+          <mxGeometry x="714" y="772.5" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pJ8_5pMY_U689O4ErKl3-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="pJ8_5pMY_U689O4ErKl3-51" target="pJ8_5pMY_U689O4ErKl3-55">
           <mxGeometry relative="1" as="geometry" />

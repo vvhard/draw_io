@@ -2828,7 +2828,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZJPLa4SgC6z-zg7O7Kfc" name="第 19 页">
-    <mxGraphModel dx="2291" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2051" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2859,7 +2859,7 @@
         <mxCell id="BNOxkX144NJ89XhSYUbp-3" value="Tomcat服务域" style="swimlane;startSize=23;strokeColor=#808080;" vertex="1" parent="1">
           <mxGeometry x="471" y="59" width="269" height="691" as="geometry" />
         </mxCell>
-        <mxCell id="BNOxkX144NJ89XhSYUbp-52" value="请求转发" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BNOxkX144NJ89XhSYUbp-3">
+        <mxCell id="BNOxkX144NJ89XhSYUbp-52" value="请求转发" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="BNOxkX144NJ89XhSYUbp-3">
           <mxGeometry x="70" y="101" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BNOxkX144NJ89XhSYUbp-62" value="请求响应" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BNOxkX144NJ89XhSYUbp-3">
@@ -2871,7 +2871,7 @@
         <mxCell id="BNOxkX144NJ89XhSYUbp-65" value="结果透传响应" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BNOxkX144NJ89XhSYUbp-3">
           <mxGeometry x="94" y="271" width="86" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BNOxkX144NJ89XhSYUbp-162" value="自定义验签接口" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="BNOxkX144NJ89XhSYUbp-3">
+        <mxCell id="BNOxkX144NJ89XhSYUbp-162" value="自定义验签接口" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="BNOxkX144NJ89XhSYUbp-3">
           <mxGeometry x="70" y="503" width="115" height="50" as="geometry" />
         </mxCell>
         <mxCell id="BNOxkX144NJ89XhSYUbp-173" value="提供一个验签接口，用于vfs对下载请求进行验签" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BNOxkX144NJ89XhSYUbp-3">

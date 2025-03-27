@@ -2958,6 +2958,9 @@
         <mxCell id="BNOxkX144NJ89XhSYUbp-154" value="根据布局配置信息，获取嵌入平台，拼接完整fid下载地址" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BNOxkX144NJ89XhSYUbp-99">
           <mxGeometry x="68.25" y="437" width="163.5" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="BNOxkX144NJ89XhSYUbp-181" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;tomcat服务这里实际是先请求到tomcat服务的低代码js，从而转发低代码请求到低代码后台的处理&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BNOxkX144NJ89XhSYUbp-99">
+          <mxGeometry x="10" y="40" width="210" height="41" as="geometry" />
+        </mxCell>
         <mxCell id="BNOxkX144NJ89XhSYUbp-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BNOxkX144NJ89XhSYUbp-2" target="BNOxkX144NJ89XhSYUbp-106">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>

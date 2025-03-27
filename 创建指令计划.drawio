@@ -2839,10 +2839,10 @@
           <mxGeometry x="-70" y="59" width="260" height="820" as="geometry" />
         </mxCell>
         <mxCell id="BNOxkX144NJ89XhSYUbp-2" value="下载列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BNOxkX144NJ89XhSYUbp-1">
-          <mxGeometry x="30" y="101" width="110" height="40" as="geometry" />
+          <mxGeometry x="61" y="101" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BNOxkX144NJ89XhSYUbp-61" value="列表展示" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BNOxkX144NJ89XhSYUbp-1">
-          <mxGeometry x="30" y="220" width="110" height="40" as="geometry" />
+          <mxGeometry x="61" y="220" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BNOxkX144NJ89XhSYUbp-71" value="3、透传响应" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BNOxkX144NJ89XhSYUbp-1">
           <mxGeometry x="156" y="200" width="104" height="30" as="geometry" />
@@ -2955,6 +2955,18 @@
         </mxCell>
         <mxCell id="BNOxkX144NJ89XhSYUbp-106" value="读取布局信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BNOxkX144NJ89XhSYUbp-99">
           <mxGeometry x="85" y="101" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BNOxkX144NJ89XhSYUbp-109" value="根据布局配置信息，获取嵌入平台，匹配请求地址" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BNOxkX144NJ89XhSYUbp-99">
+          <mxGeometry x="46.5" y="158" width="163.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BNOxkX144NJ89XhSYUbp-111" value="1、发起请求" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BNOxkX144NJ89XhSYUbp-99">
+          <mxGeometry x="-80" y="91" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BNOxkX144NJ89XhSYUbp-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BNOxkX144NJ89XhSYUbp-2" target="BNOxkX144NJ89XhSYUbp-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BNOxkX144NJ89XhSYUbp-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BNOxkX144NJ89XhSYUbp-106" target="BNOxkX144NJ89XhSYUbp-52">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

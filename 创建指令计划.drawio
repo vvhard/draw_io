@@ -2877,6 +2877,9 @@
         <mxCell id="BNOxkX144NJ89XhSYUbp-173" value="提供一个验签接口，用于vfs对下载请求进行验签" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BNOxkX144NJ89XhSYUbp-3">
           <mxGeometry x="54" y="571" width="161" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="BNOxkX144NJ89XhSYUbp-182" value="2、发起下载请求" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BNOxkX144NJ89XhSYUbp-3">
+          <mxGeometry x="9" y="371" width="130" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="BNOxkX144NJ89XhSYUbp-14" value="导入导出平台" style="swimlane;strokeColor=#808080;" vertex="1" parent="1">
           <mxGeometry x="741" y="59" width="230" height="691" as="geometry" />
         </mxCell>
@@ -2895,8 +2898,11 @@
         <mxCell id="BNOxkX144NJ89XhSYUbp-70" value="查询数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BNOxkX144NJ89XhSYUbp-14">
           <mxGeometry x="93" y="271" width="90" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="BNOxkX144NJ89XhSYUbp-167" value="文件服务回调" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BNOxkX144NJ89XhSYUbp-14">
-          <mxGeometry x="13" y="496" width="80" height="30" as="geometry" />
+        <mxCell id="BNOxkX144NJ89XhSYUbp-167" value="2.1 文件服务回调" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BNOxkX144NJ89XhSYUbp-14">
+          <mxGeometry x="13" y="496" width="107" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BNOxkX144NJ89XhSYUbp-183" value="3、返回响应" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BNOxkX144NJ89XhSYUbp-14">
+          <mxGeometry y="651" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BNOxkX144NJ89XhSYUbp-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BNOxkX144NJ89XhSYUbp-52" target="BNOxkX144NJ89XhSYUbp-57">
           <mxGeometry relative="1" as="geometry" />

@@ -40,6 +40,9 @@
         <mxCell id="vV9F8FpQklZUtOAqagsq-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vV9F8FpQklZUtOAqagsq-5" target="vV9F8FpQklZUtOAqagsq-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="vV9F8FpQklZUtOAqagsq-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vV9F8FpQklZUtOAqagsq-5" target="vV9F8FpQklZUtOAqagsq-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vV9F8FpQklZUtOAqagsq-5" value="校验文件内容" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="440" width="100" height="40" as="geometry" />
         </mxCell>
@@ -87,8 +90,8 @@
         <mxCell id="vV9F8FpQklZUtOAqagsq-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vV9F8FpQklZUtOAqagsq-17" target="vV9F8FpQklZUtOAqagsq-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vV9F8FpQklZUtOAqagsq-29" value="&lt;pre style=&quot;font-size: 9pt; text-align: left; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;color: rgb(8, 8, 8);&quot;&gt;vib_change_po_interface_header&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-size: 9pt; text-align: left; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9pt;&quot;&gt;&lt;span style=&quot;color: rgb(6, 125, 23);&quot;&gt;&lt;font style=&quot;color: rgb(8, 8, 8);&quot;&gt;vib_change_po_interface_detail&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="570" y="750" width="192" height="50" as="geometry" />
+        <mxCell id="vV9F8FpQklZUtOAqagsq-29" value="&lt;pre style=&quot;font-size: 9pt; text-align: left; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;div&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9pt;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: rgb(8, 8, 8);&quot;&gt;vib_config_scenario_line&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="625" width="150" height="15" as="geometry" />
         </mxCell>
         <mxCell id="vV9F8FpQklZUtOAqagsq-30" value="缺少必填参数" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="270" width="90" height="30" as="geometry" />
@@ -119,6 +122,24 @@
         </mxCell>
         <mxCell id="vV9F8FpQklZUtOAqagsq-46" value="PO、仓库、条码、等级、库存可售状态、库存类型维度" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="470" y="330" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vV9F8FpQklZUtOAqagsq-47" value="配置匹配" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="570" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vV9F8FpQklZUtOAqagsq-49" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="690" y="565" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vV9F8FpQklZUtOAqagsq-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vV9F8FpQklZUtOAqagsq-47" target="vV9F8FpQklZUtOAqagsq-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vV9F8FpQklZUtOAqagsq-51" value="&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 9pt; background-color: rgb(255, 255, 255);&quot;&gt;场景编码&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230)); font-size: 9pt; background-color: transparent;&quot;&gt;vis_change_po_scenario&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font face=&quot;Helvetica&quot; color=&quot;#080808&quot;&gt;warehouse_code = &#39;VIP_NH&#39;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font face=&quot;Helvetica&quot; color=&quot;#080808&quot;&gt;AND po_type = &#39;VI IMM&#39;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font face=&quot;Helvetica&quot; color=&quot;#080808&quot;&gt;AND general_trade_flag = 0&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font face=&quot;Helvetica&quot; color=&quot;#080808&quot;&gt;AND resason_code = &#39;STO&#39;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font face=&quot;Helvetica&quot; color=&quot;#080808&quot;&gt;AND purchase_company_code = &#39;WUM&#39;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="532.5" width="246" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="vV9F8FpQklZUtOAqagsq-53" value="&lt;pre style=&quot;font-size: 9pt; text-align: left; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;color: rgb(8, 8, 8);&quot;&gt;vib_change_po_interface_header&lt;/font&gt;&lt;/pre&gt;&lt;pre style=&quot;font-size: 9pt; text-align: left; font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace;&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9pt;&quot;&gt;&lt;span style=&quot;color: rgb(6, 125, 23);&quot;&gt;&lt;font style=&quot;color: rgb(8, 8, 8);&quot;&gt;vib_change_po_interface_detail&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="760" width="192" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vV9F8FpQklZUtOAqagsq-54" value="查询" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="598" y="565" width="44" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

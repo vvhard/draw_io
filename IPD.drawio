@@ -1521,7 +1521,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bwKqVnKqF2wwOpSFguGN-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="构建项目规范" vertex="1">
-          <mxGeometry height="30" width="100" x="100" y="210" as="geometry" />
+          <mxGeometry height="30" width="100" x="100" y="205" as="geometry" />
         </mxCell>
         <mxCell id="bwKqVnKqF2wwOpSFguGN-39" edge="1" parent="1" source="bwKqVnKqF2wwOpSFguGN-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="bwKqVnKqF2wwOpSFguGN-4">
           <mxGeometry relative="1" as="geometry" />
@@ -1567,6 +1567,19 @@
         </mxCell>
         <mxCell id="bwKqVnKqF2wwOpSFguGN-26" edge="1" parent="1" source="bwKqVnKqF2wwOpSFguGN-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="bwKqVnKqF2wwOpSFguGN-22">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bwKqVnKqF2wwOpSFguGN-41" edge="1" parent="1" source="bwKqVnKqF2wwOpSFguGN-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" target="bwKqVnKqF2wwOpSFguGN-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="649" y="230" />
+              <mxPoint x="150" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bwKqVnKqF2wwOpSFguGN-42" connectable="0" parent="bwKqVnKqF2wwOpSFguGN-41" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="更新规则" vertex="1">
+          <mxGeometry relative="1" x="0.0844" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="bwKqVnKqF2wwOpSFguGN-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" value="优化提示词及规则" vertex="1">
           <mxGeometry height="30" width="100" x="599" y="265" as="geometry" />

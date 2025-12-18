@@ -1571,8 +1571,8 @@
         <mxCell id="bwKqVnKqF2wwOpSFguGN-41" edge="1" parent="1" source="bwKqVnKqF2wwOpSFguGN-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" target="bwKqVnKqF2wwOpSFguGN-3">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="649" y="230" />
-              <mxPoint x="150" y="230" />
+              <mxPoint x="649" y="240" />
+              <mxPoint x="150" y="240" />
             </Array>
           </mxGeometry>
         </mxCell>

@@ -3677,8 +3677,11 @@
         <mxCell id="lWrjEg6T5JgOGEUwfksP-250" parent="kPx6dfpq5Ulk9EIyyV36-2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="已寄出弃货函&lt;div&gt;弃货函已签收&lt;br&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="92.54" x="24.70000000000004" y="2609" as="geometry" />
         </mxCell>
-        <mxCell id="lWrjEg6T5JgOGEUwfksP-261" parent="kPx6dfpq5Ulk9EIyyV36-2" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" value="弃货函寄出及签收" vertex="1">
+        <mxCell id="lWrjEg6T5JgOGEUwfksP-261" parent="kPx6dfpq5Ulk9EIyyV36-2" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" value="自动弃货" vertex="1">
           <mxGeometry height="321" width="2133" x="-254" y="2919" as="geometry" />
+        </mxCell>
+        <mxCell id="lWrjEg6T5JgOGEUwfksP-262" parent="lWrjEg6T5JgOGEUwfksP-261" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;p&gt;待自动弃货定时任务&lt;/p&gt;" vertex="1">
+          <mxGeometry height="40" width="101.25" x="277.8500000000001" y="40" as="geometry" />
         </mxCell>
         <mxCell id="z-8qbYSuyrY7HdoE9RRG-9" parent="kPx6dfpq5Ulk9EIyyV36-1" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" value="转RI" vertex="1">
           <mxGeometry height="3239" width="260" x="1370" y="41" as="geometry" />

@@ -3340,7 +3340,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kPx6dfpq5Ulk9EIyyV36-2" parent="kPx6dfpq5Ulk9EIyyV36-1" style="swimlane;whiteSpace=wrap;html=1;" value="在仓决策" vertex="1">
-          <mxGeometry height="3239" width="380" x="280" y="41" as="geometry" />
+          <mxGeometry height="3239" width="1879" x="280" y="41" as="geometry" />
         </mxCell>
         <mxCell id="Wj5MxF5svywv6qv044gv-5" parent="kPx6dfpq5Ulk9EIyyV36-2" style="rounded=0;whiteSpace=wrap;html=1;" value="预警表" vertex="1">
           <mxGeometry height="40" width="110" x="90" y="250" as="geometry" />
@@ -3348,11 +3348,11 @@
         <mxCell id="z-8qbYSuyrY7HdoE9RRG-1" parent="kPx6dfpq5Ulk9EIyyV36-2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="stock_decision_apply表&lt;div&gt;stock_decision_apply_detail表&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="174.37" x="207.8" y="710" as="geometry" />
         </mxCell>
-        <mxCell id="lWrjEg6T5JgOGEUwfksP-97" edge="1" parent="kPx6dfpq5Ulk9EIyyV36-2" source="z-8qbYSuyrY7HdoE9RRG-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lWrjEg6T5JgOGEUwfksP-96" value="">
+        <mxCell id="lWrjEg6T5JgOGEUwfksP-305" edge="1" parent="kPx6dfpq5Ulk9EIyyV36-2" source="z-8qbYSuyrY7HdoE9RRG-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lWrjEg6T5JgOGEUwfksP-96" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="z-8qbYSuyrY7HdoE9RRG-3" parent="kPx6dfpq5Ulk9EIyyV36-2" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;p&gt;页面导入申请单&lt;/p&gt;" vertex="1">
-          <mxGeometry height="40" width="101.25" x="135.56" y="350" as="geometry" />
+          <mxGeometry height="40" width="101.25" x="135.17000000000002" y="349" as="geometry" />
         </mxCell>
         <mxCell id="z-8qbYSuyrY7HdoE9RRG-5" parent="kPx6dfpq5Ulk9EIyyV36-2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="stock_decision_forewarn表：&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;po + barcode + warehouseCode 维度&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="207.82" x="84.89" y="210" as="geometry" />
@@ -3658,6 +3658,9 @@
         <mxCell id="lWrjEg6T5JgOGEUwfksP-244" parent="kPx6dfpq5Ulk9EIyyV36-2" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;p&gt;vup页面处理&lt;/p&gt;" vertex="1">
           <mxGeometry height="40" width="101.25" x="15.460000000000036" y="2651" as="geometry" />
         </mxCell>
+        <mxCell id="lWrjEg6T5JgOGEUwfksP-296" edge="1" parent="kPx6dfpq5Ulk9EIyyV36-2" source="lWrjEg6T5JgOGEUwfksP-245" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lWrjEg6T5JgOGEUwfksP-295" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="lWrjEg6T5JgOGEUwfksP-245" parent="kPx6dfpq5Ulk9EIyyV36-2" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;p&gt;待签收弃货函&lt;/p&gt;" vertex="1">
           <mxGeometry height="40" width="101.25" x="270.06000000000006" y="2651" as="geometry" />
         </mxCell>
@@ -3684,17 +3687,52 @@
         <mxCell id="lWrjEg6T5JgOGEUwfksP-250" parent="kPx6dfpq5Ulk9EIyyV36-2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="已寄出弃货函&lt;div&gt;弃货函已签收&lt;br&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="92.54" x="24.70000000000004" y="2609" as="geometry" />
         </mxCell>
-        <mxCell id="lWrjEg6T5JgOGEUwfksP-261" parent="kPx6dfpq5Ulk9EIyyV36-2" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" value="自动弃货" vertex="1">
-          <mxGeometry height="321" width="2133" x="-254" y="2919" as="geometry" />
+        <mxCell id="lWrjEg6T5JgOGEUwfksP-261" parent="kPx6dfpq5Ulk9EIyyV36-2" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" value="发送邮件" vertex="1">
+          <mxGeometry height="320" width="2133" x="-254" y="2919" as="geometry" />
         </mxCell>
-        <mxCell id="lWrjEg6T5JgOGEUwfksP-276" edge="1" parent="lWrjEg6T5JgOGEUwfksP-261" source="lWrjEg6T5JgOGEUwfksP-262" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="lWrjEg6T5JgOGEUwfksP-275" value="">
+        <mxCell id="lWrjEg6T5JgOGEUwfksP-300" edge="1" parent="lWrjEg6T5JgOGEUwfksP-261" source="lWrjEg6T5JgOGEUwfksP-262" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="lWrjEg6T5JgOGEUwfksP-299">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lWrjEg6T5JgOGEUwfksP-262" parent="lWrjEg6T5JgOGEUwfksP-261" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;p&gt;发送弃货函邮件定时任务&lt;/p&gt;" vertex="1">
+        <mxCell id="lWrjEg6T5JgOGEUwfksP-262" parent="lWrjEg6T5JgOGEUwfksP-261" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;p&gt;发送邮件定时任务&lt;/p&gt;" vertex="1">
           <mxGeometry height="40" width="101.25" x="269.99000000000007" y="40" as="geometry" />
         </mxCell>
-        <mxCell id="lWrjEg6T5JgOGEUwfksP-275" parent="lWrjEg6T5JgOGEUwfksP-261" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;" value="发送弃货邮件" vertex="1">
-          <mxGeometry height="30" width="86" x="434.51" y="45" as="geometry" />
+        <mxCell id="lWrjEg6T5JgOGEUwfksP-299" parent="lWrjEg6T5JgOGEUwfksP-261" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;" value="发送邮件" vertex="1">
+          <mxGeometry height="30" width="86" x="473.23999999999995" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="lWrjEg6T5JgOGEUwfksP-308" parent="lWrjEg6T5JgOGEUwfksP-261" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" value="关闭" vertex="1">
+          <mxGeometry height="219" width="2133" y="101" as="geometry" />
+        </mxCell>
+        <mxCell id="lWrjEg6T5JgOGEUwfksP-318" edge="1" parent="lWrjEg6T5JgOGEUwfksP-308" source="lWrjEg6T5JgOGEUwfksP-310" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="lWrjEg6T5JgOGEUwfksP-317">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lWrjEg6T5JgOGEUwfksP-310" parent="lWrjEg6T5JgOGEUwfksP-308" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;p&gt;vup页面关闭&lt;/p&gt;" vertex="1">
+          <mxGeometry height="40" width="101.25" x="274.00000000000006" y="19" as="geometry" />
+        </mxCell>
+        <mxCell id="lWrjEg6T5JgOGEUwfksP-319" edge="1" parent="lWrjEg6T5JgOGEUwfksP-308" source="lWrjEg6T5JgOGEUwfksP-312" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="lWrjEg6T5JgOGEUwfksP-317">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="404" y="129" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lWrjEg6T5JgOGEUwfksP-312" parent="lWrjEg6T5JgOGEUwfksP-308" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;p&gt;超时未签收弃货函&lt;/p&gt;" vertex="1">
+          <mxGeometry height="40" width="101.25" x="274.00000000000006" y="69" as="geometry" />
+        </mxCell>
+        <mxCell id="lWrjEg6T5JgOGEUwfksP-321" edge="1" parent="lWrjEg6T5JgOGEUwfksP-308" source="lWrjEg6T5JgOGEUwfksP-313" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="lWrjEg6T5JgOGEUwfksP-317">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lWrjEg6T5JgOGEUwfksP-313" parent="lWrjEg6T5JgOGEUwfksP-308" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;p&gt;超时未寄出弃货函&lt;/p&gt;" vertex="1">
+          <mxGeometry height="40" width="101.25" x="274" y="119" as="geometry" />
+        </mxCell>
+        <mxCell id="lWrjEg6T5JgOGEUwfksP-322" edge="1" parent="lWrjEg6T5JgOGEUwfksP-308" source="lWrjEg6T5JgOGEUwfksP-314" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="lWrjEg6T5JgOGEUwfksP-317">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lWrjEg6T5JgOGEUwfksP-314" parent="lWrjEg6T5JgOGEUwfksP-308" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;p&gt;自动弃货7天关闭&lt;/p&gt;" vertex="1">
+          <mxGeometry height="40" width="101.25" x="274" y="169" as="geometry" />
+        </mxCell>
+        <mxCell id="lWrjEg6T5JgOGEUwfksP-315" parent="lWrjEg6T5JgOGEUwfksP-308" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="po + barcode + warehouseCode 维度&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;更新预警表数据为&lt;/span&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;待决策&lt;/b&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="51" width="176" x="454" y="139" as="geometry" />
+        </mxCell>
+        <mxCell id="lWrjEg6T5JgOGEUwfksP-317" parent="lWrjEg6T5JgOGEUwfksP-308" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="关闭" vertex="1">
+          <mxGeometry height="30" width="76" x="484" y="101" as="geometry" />
         </mxCell>
         <mxCell id="lWrjEg6T5JgOGEUwfksP-269" parent="kPx6dfpq5Ulk9EIyyV36-2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="是" vertex="1">
           <mxGeometry height="15" width="27.29" x="113.31000000000002" y="1301" as="geometry" />
@@ -3714,8 +3752,29 @@
         <mxCell id="lWrjEg6T5JgOGEUwfksP-289" parent="kPx6dfpq5Ulk9EIyyV36-2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="弃货函邮件" vertex="1">
           <mxGeometry height="26" width="73.83" x="139.17" y="1369" as="geometry" />
         </mxCell>
-        <mxCell id="lWrjEg6T5JgOGEUwfksP-292" parent="kPx6dfpq5Ulk9EIyyV36-2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;商务提醒邮件&lt;/span&gt;" vertex="1">
-          <mxGeometry height="26" width="82.72" x="237.28" y="1346" as="geometry" />
+        <mxCell id="lWrjEg6T5JgOGEUwfksP-292" parent="kPx6dfpq5Ulk9EIyyV36-2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;商务提醒邮件：提醒寄出&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="92.72" x="232.8" y="1346" as="geometry" />
+        </mxCell>
+        <mxCell id="lWrjEg6T5JgOGEUwfksP-293" parent="kPx6dfpq5Ulk9EIyyV36-2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="待签收弃货函" vertex="1">
+          <mxGeometry height="15" width="74.34" x="107.83000000000001" y="2719" as="geometry" />
+        </mxCell>
+        <mxCell id="lWrjEg6T5JgOGEUwfksP-294" parent="kPx6dfpq5Ulk9EIyyV36-2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="待寄出弃货函" vertex="1">
+          <mxGeometry height="15" width="74.34" x="207.80000000000004" y="2631" as="geometry" />
+        </mxCell>
+        <mxCell id="lWrjEg6T5JgOGEUwfksP-295" parent="kPx6dfpq5Ulk9EIyyV36-2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=default;" value="发送邮件" vertex="1">
+          <mxGeometry height="30" width="86" x="277.18999999999994" y="2761" as="geometry" />
+        </mxCell>
+        <mxCell id="lWrjEg6T5JgOGEUwfksP-297" parent="kPx6dfpq5Ulk9EIyyV36-2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;商务提醒邮件：提醒签收&lt;/span&gt;" vertex="1">
+          <mxGeometry height="26" width="87.2" x="232.8" y="2713.5" as="geometry" />
+        </mxCell>
+        <mxCell id="lWrjEg6T5JgOGEUwfksP-304" edge="1" parent="kPx6dfpq5Ulk9EIyyV36-2" source="lWrjEg6T5JgOGEUwfksP-303" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="z-8qbYSuyrY7HdoE9RRG-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lWrjEg6T5JgOGEUwfksP-303" parent="kPx6dfpq5Ulk9EIyyV36-2" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="超时未决策定时任务" vertex="1">
+          <mxGeometry height="40" width="101.25" x="9.330000000000013" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="lWrjEg6T5JgOGEUwfksP-306" parent="kPx6dfpq5Ulk9EIyyV36-2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span&gt;&lt;font style=&quot;color: rgb(8, 8, 8);&quot;&gt;is_timeout = 1&lt;/font&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="12.699999999999989" y="720" as="geometry" />
         </mxCell>
         <mxCell id="z-8qbYSuyrY7HdoE9RRG-9" parent="kPx6dfpq5Ulk9EIyyV36-1" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" value="转RI" vertex="1">
           <mxGeometry height="3239" width="260" x="1370" y="41" as="geometry" />

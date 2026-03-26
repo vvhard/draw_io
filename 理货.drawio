@@ -4727,7 +4727,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xitJFlQS7a2J3KQPSTzK" name="第 15 页">
-    <mxGraphModel dx="2364" dy="1399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1501" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4827,8 +4827,8 @@
         <mxCell id="aL1Zn7qAhsd8ka3HXU96-206" parent="aL1Zn7qAhsd8ka3HXU96-1" style="rounded=0;whiteSpace=wrap;html=1;" value="待下游执行" vertex="1">
           <mxGeometry height="40" width="97.25" x="451" y="830" as="geometry" />
         </mxCell>
-        <mxCell id="aL1Zn7qAhsd8ka3HXU96-209" parent="aL1Zn7qAhsd8ka3HXU96-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="stock_apply_document表记录单据号" vertex="1">
-          <mxGeometry height="30" width="211.75" x="438.25" y="880" as="geometry" />
+        <mxCell id="aL1Zn7qAhsd8ka3HXU96-209" parent="aL1Zn7qAhsd8ka3HXU96-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="stock_apply_document表记录单据号&lt;div&gt;任务表记录 发邮件通知商务&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="211.75" x="423" y="880" as="geometry" />
         </mxCell>
         <mxCell id="aL1Zn7qAhsd8ka3HXU96-215" edge="1" parent="aL1Zn7qAhsd8ka3HXU96-1" source="aL1Zn7qAhsd8ka3HXU96-212" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="aL1Zn7qAhsd8ka3HXU96-214">
           <mxGeometry relative="1" as="geometry" />
